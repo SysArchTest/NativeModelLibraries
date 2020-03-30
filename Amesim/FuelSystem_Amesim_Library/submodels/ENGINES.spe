@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE SPE>
+<SPE DOC_VERSION="2" AME_VERSION="2020.1. - DEV - 2019">
+
+ <SUBMODEL>
+  <SUB_TYPE>1</SUB_TYPE>
+  <SUB_ID_MAX>20</SUB_ID_MAX>
+  <SUB_GP_ID_MAX>-1</SUB_GP_ID_MAX>
+  <DEFAULT_ICON>Engines</DEFAULT_ICON>
+  <SUB_UNIT>0</SUB_UNIT>
+  <OUTPUT_TYPE>0</OUTPUT_TYPE>
+  <GLOB_IPARAMS_LIST>
+   <GLOB_IPARAM>
+    <GLOB_PARAM_NAME>IndexFluid</GLOB_PARAM_NAME>
+    <GLOB_EXPOSED>1</GLOB_EXPOSED>
+    <IPARAM>
+     <SUB_ID>-1</SUB_ID>
+     <TITLE>IndexF</TITLE>
+     <VARNAME>IndexFluid</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <USES_SC_GP>1</USES_SC_GP>
+     <DEF_VALUE>1</DEF_VALUE>
+     <VALUE>1</VALUE>
+     <MIN_VALUE>-1000</MIN_VALUE>
+     <MAX_VALUE>1000</MAX_VALUE>
+    </IPARAM>
+   </GLOB_IPARAM>
+  </GLOB_IPARAMS_LIST>
+  <EVARS_LIST>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>43</SUB_ID>
+     <TITLE>pressure signal at port 1</TITLE>
+     <VARNAME>p1</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>null</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>44</SUB_ID>
+     <TITLE>temperature signal at port 2</TITLE>
+     <VARNAME>t2</VARNAME>
+     <VISIBILITY>(thhuse!=2)&&(thhuse!=3)</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>null</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>45</SUB_ID>
+     <TITLE>total gas mass fraction signal at port 3</TITLE>
+     <VARNAME>xg3</VARNAME>
+     <VISIBILITY>aeropt>1</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>null</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>46</SUB_ID>
+     <TITLE>undissolved gas mass fraction signal at port 4</TITLE>
+     <VARNAME>xu4</VARNAME>
+     <VISIBILITY>(aeropt==3)&&(aerinit==2)</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>null</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>47</SUB_ID>
+     <TITLE>mass flow rate signal at port 5</TITLE>
+     <VARNAME>dm5</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>7</TYPE>
+     <UNITS>null</UNITS>
+     <EXPRESS2>@_11_4</EXPRESS2>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>48</SUB_ID>
+     <TITLE>enthalpy flow rate signal at port 6</TITLE>
+     <VARNAME>dmh6</VARNAME>
+     <VISIBILITY>(thhuse==1)</VISIBILITY>
+     <TYPE>7</TYPE>
+     <UNITS>null</UNITS>
+     <EXPRESS2>@_11_5</EXPRESS2>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>78</SUB_ID>
+     <TITLE>total gas mass flow rate signal at port 7</TITLE>
+     <VARNAME>dmxg7</VARNAME>
+     <VISIBILITY>aeropt>1</VISIBILITY>
+     <TYPE>8</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>null</UNITS>
+     <EXPRESS2>@_11_4, @_11_5, @_11_8, @_11_3</EXPRESS2>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>79</SUB_ID>
+     <TITLE>undissolved gas mass flow rate signal at port 8</TITLE>
+     <VARNAME>dmxu8</VARNAME>
+     <VISIBILITY>aeropt==3</VISIBILITY>
+     <TYPE>8</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>null</UNITS>
+     <EXPRESS2>@_11_4, @_11_5, @_11_8, @_11_3, @_7_1</EXPRESS2>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>53</SUB_ID>
+     <TITLE>volume signal at port 9</TITLE>
+     <VARNAME>vol9</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>7</TYPE>
+     <UNITS>null</UNITS>
+     <EXPRESS2>@_11_6</EXPRESS2>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>54</SUB_ID>
+     <TITLE>derivative of volume signal at port 10</TITLE>
+     <VARNAME>dvol10</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>7</TYPE>
+     <UNITS>null</UNITS>
+     <EXPRESS2>@_11_7</EXPRESS2>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>43</SUB_ID>
+     <TITLE>pressure signal at port 1</TITLE>
+     <VARNAME>p1</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>null</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>44</SUB_ID>
+     <TITLE>temperature signal at port 2</TITLE>
+     <VARNAME>t2</VARNAME>
+     <VISIBILITY>(thhuse!=2)&&(thhuse!=3)</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>null</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>45</SUB_ID>
+     <TITLE>total gas mass fraction signal at port 3</TITLE>
+     <VARNAME>xg3</VARNAME>
+     <VISIBILITY>aeropt>1</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>null</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>46</SUB_ID>
+     <TITLE>undissolved gas mass fraction signal at port 4</TITLE>
+     <VARNAME>xu4</VARNAME>
+     <VISIBILITY>(aeropt==3)&&(aerinit==2)</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>null</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>47</SUB_ID>
+     <TITLE>mass flow rate signal at port 5</TITLE>
+     <VARNAME>dm5</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>7</TYPE>
+     <UNITS>null</UNITS>
+     <EXPRESS2>@_11_4</EXPRESS2>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>48</SUB_ID>
+     <TITLE>enthalpy flow rate signal at port 6</TITLE>
+     <VARNAME>dmh6</VARNAME>
+     <VISIBILITY>(thhuse==1)</VISIBILITY>
+     <TYPE>7</TYPE>
+     <UNITS>null</UNITS>
+     <EXPRESS2>@_11_5</EXPRESS2>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>78</SUB_ID>
+     <TITLE>total gas mass flow rate signal at port 7</TITLE>
+     <VARNAME>dmxg7</VARNAME>
+     <VISIBILITY>aeropt>1</VISIBILITY>
+     <TYPE>8</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>null</UNITS>
+     <EXPRESS2>@_11_4, @_11_5, @_11_8, @_11_3</EXPRESS2>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>79</SUB_ID>
+     <TITLE>undissolved gas mass flow rate signal at port 8</TITLE>
+     <VARNAME>dmxu8</VARNAME>
+     <VISIBILITY>aeropt==3</VISIBILITY>
+     <TYPE>8</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>null</UNITS>
+     <EXPRESS2>@_11_4, @_11_5, @_11_8, @_11_3, @_7_1</EXPRESS2>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>53</SUB_ID>
+     <TITLE>volume signal at port 9</TITLE>
+     <VARNAME>vol9</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>7</TYPE>
+     <UNITS>null</UNITS>
+     <EXPRESS2>@_11_6</EXPRESS2>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>54</SUB_ID>
+     <TITLE>derivative of volume signal at port 10</TITLE>
+     <VARNAME>dvol10</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>7</TYPE>
+     <UNITS>null</UNITS>
+     <EXPRESS2>@_11_7</EXPRESS2>
+    </EVAR>
+   </PORT>
+  </EVARS_LIST>
+  <EXPOSED_ORDER>
+   <EXPOSED_PARAM_ORDER>
+    <EXPOSED_DATAPATH_LIST>
+     <EXPOSED_DATAPATH>IndexFluid</EXPOSED_DATAPATH>
+    </EXPOSED_DATAPATH_LIST>
+   </EXPOSED_PARAM_ORDER>
+  </EXPOSED_ORDER>
+  <CIR_PORTS_OVER_FRAMEWORK>1</CIR_PORTS_OVER_FRAMEWORK>
+  <SUBIDS_RESET>0</SUBIDS_RESET>
+ </SUBMODEL>
+</SPE>

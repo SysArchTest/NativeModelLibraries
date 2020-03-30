@@ -1,0 +1,346 @@
+<Unit_Configuration Active_Configuration_Id="{603ada5e-e64f-4478-9695-b9d995f93cc6}" Version="17.0">
+    <Configuration_Definition IsDuplicate="0" Name="International System of Units (SI)" Scope="0" IsFactory="1" Id="{603ada5e-e64f-4478-9695-b9d995f93cc6}" IsReference="0">
+        <Domain_Definition Domain="density">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e3" Name="g/cm**3" Default_Unit="lb/ft**3"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.001153961" Name="oz/ft**3" Default_Unit="lb/ft**3"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*119.826427317" Name="lb/USgal" Default_Unit="lb/ft**3"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="electrical conductance">
+            <SI_Unit_Definition User_Specific="1" Name="S"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mS"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e3" Name="kS"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e6" Name="MS"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="fluid absolute viscosity">
+            <Unit_Definition User_Specific="1" Conversion_String="*17.8579673" Name="lb/in/s" Default_Unit="lb/ft/s"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*47.88025898" Name="lbfs/ft**2" Default_Unit="lb/ft/s"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="fluid kinematic viscosity">
+            <Unit_Definition User_Specific="1" Conversion_String="*0.000025806" Name="ft**2/hr" Default_Unit="ft**2/s"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.79211111e-7" Name="in**2/hr" Default_Unit="ft**2/s"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="heat capacity">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mJ/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="J/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mJ/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e3" Name="kJ/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.8991e3" Name="Btu/F"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.8991e3" Name="Btu/degF"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="hyd/pneu leakage coefficient &amp; sonic conductance">
+            <Unit_Definition User_Specific="1" Conversion_String="*4.10701137e-6" Name="ft**3/s/psi" Default_Unit="USgal/s/psi"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*5.49027562e-7" Name="USgal/s/psi"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="hyd/pneu pressure &amp; bulk modulus">
+            <Unit_Definition User_Specific="1" Conversion_String="*6.894757293168361e3" Name="psig"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*248.843" Name="inAq" Default_Unit="psig"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="hyd/pneu pressure (absolute)">
+            <Unit_Definition User_Specific="1" Conversion_String="*248.843" Name="inAqA" Default_Unit="psiA"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="hyd/pneu pump/motor displacement">
+            <Unit_Definition User_Specific="1" Conversion_String="*0.0283168466/2.0/M_PI" Name="ft**3/rev" Default_Unit="in**3/rev"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*0.00378541/2.0/M_PI" Name="USgal/rev" Default_Unit="in**3/rev"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="hyd/pneu pressure/flow rate gradient">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.46091634e7" Name="psi/ft**3/min" Default_Unit="psi/in**3/min"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*2.52446343e10" Name="psi/in**3/min"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.09284131e8" Name="psi/USgal/min" Default_Unit="psi/in**3/min"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="linear motion damping coefficient">
+            <Unit_Definition User_Specific="1" Conversion_String="*175.126835" Name="lbf/(in/s)" Default_Unit="lbf/(ft/s)"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*14.5939029" Name="lbf/(ft/s)"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="linear windage coefficient">
+            <Unit_Definition User_Specific="1" Conversion_String="*47.880259" Name="lbf/(ft/s)**2"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*6.89475729e3" Name="lbf/(in/s)**2" Default_Unit="lbf/(ft/s)**2"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="mass">
+            <Unit_Definition User_Specific="1" Conversion_String="*6.479891e-5" Name="gr" Default_Unit="lb"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="magnetic field">
+            <Unit_Definition User_Specific="1" Conversion_String="*39.3701" Name="A/in" Default_Unit="A/ft"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*3.28084" Name="A/ft"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="molar mass">
+            <Unit_Definition User_Specific="1" Conversion_String="*0.453592" Name="lb/mol"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="rotary damping coefficient">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.3558*30.0/M_PI" Name="lbft/(rev/min)"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="rotary windage coefficient">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.35581795*900.0/M_PI/M_PI" Name="lbft/(rev/min)**2"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="specific heat capacity">
+            <SI_Unit_Definition User_Specific="1" Name="J/kg/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e3" Name="kJ/kg/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e3" Name="kJ/kg/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="J/kg/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*4.18680018802e3" Name="Btu/lb/degF"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="thermal insulance">
+            <Unit_Definition User_Specific="1" Conversion_String="*6.94444e-3*1.7611018368230600e-1" Name="in**2/(Btu/degF/h)" Default_Unit="ft**2/(Btu/degF/h)"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*2.77777778e-4*1.7611018368230600e-1" Name="ft**2/(Btu/degF/s)" Default_Unit="ft**2/(Btu/degF/h)"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*6.94444e-3*2.77777778e-4*1.7611018368230600e-1" Name="in**2/(Btu/degF/s)" Default_Unit="ft**2/(Btu/degF/h)"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="thermal resistance">
+            <SI_Unit_Definition User_Specific="1" Name="degC/W"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e+3" Name="degC/mW"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="degC/kW"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="thermal conductivity">
+            <SI_Unit_Definition User_Specific="1" Name="W/m/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mW/m/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mW/m/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="W/m/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.73073474409449" Name="Btu/h/ft/degF"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="cf index">
+            <SI_Unit_Definition User_Specific="1" Name="cfnull"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="mass fraction">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="lb/lb"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="fraction">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="pu"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="perunit"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="geometrical density">
+            <SI_Unit_Definition User_Specific="1" Name="per m"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/1.0e-1" Name="per dm"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/1.0e-2" Name="per cm"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/1.0e-3" Name="per mm"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/2.54e-2" Name="per in"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/3.048e-1" Name="per ft"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="gas node index">
+            <SI_Unit_Definition User_Specific="1" Name="gasnode"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="gas flow index">
+            <SI_Unit_Definition User_Specific="1" Name="gasflow"/>
+        </Domain_Definition>
+    </Configuration_Definition>
+    <Configuration_Definition IsDuplicate="0" Name="AeroSpace Configuration" Scope="0" IsFactory="1" Id="{ad25117a-5f28-486a-a184-2516e5e1c905}" IsReference="0">
+        <Domain_Definition Domain="heat capacity">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mJ/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="J/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mJ/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e3" Name="kJ/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.8991e3" Name="Btu/degF"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.8991e3" Name="Btu/F"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="specific heat capacity">
+            <SI_Unit_Definition User_Specific="1" Name="J/kg/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e3" Name="kJ/kg/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e3" Name="kJ/kg/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="J/kg/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*4.18680018802e3" Name="Btu/lb/degF"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="thermal resistance">
+            <SI_Unit_Definition User_Specific="1" Name="degC/W"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e+3" Name="degC/mW"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="degC/kW"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="thermal conductivity">
+            <SI_Unit_Definition User_Specific="1" Name="W/m/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mW/m/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.73073474409449" Name="Btu/h/ft/degF"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mW/m/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="W/m/degC"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="cf index">
+            <SI_Unit_Definition User_Specific="1" Name="cfnull"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="thh node index">
+            <SI_Unit_Definition User_Specific="1" Name="tfnode"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="thh flow index">
+            <SI_Unit_Definition User_Specific="1" Name="tfflow"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="mass fraction">
+            <SI_Unit_Definition User_Specific="1" Name="g/g" Default_Unit="lb/lb"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-6" Name="mg/kg" Default_Unit="lb/lb"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="lb/lb"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="fraction">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="pu"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="perunit"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="geometrical density">
+            <SI_Unit_Definition User_Specific="1" Name="per m"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/1.0e-1" Name="per dm"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/1.0e-2" Name="per cm"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/1.0e-3" Name="per mm"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/2.54e-2" Name="per in"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/3.048e-1" Name="per ft"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="gas node index">
+            <SI_Unit_Definition User_Specific="1" Name="gasnode"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="gas flow index">
+            <SI_Unit_Definition User_Specific="1" Name="gasflow"/>
+        </Domain_Definition>
+    </Configuration_Definition>
+    <Configuration_Definition IsDuplicate="0" Name="American system" Scope="0" IsFactory="1" Id="{20019aa2-0790-424d-8170-cc4e6e46d74c}" IsReference="0">
+        <Domain_Definition Domain="electrical RMS current">
+            <SI_Unit_Definition User_Specific="1" Name="Arms"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mArms" Default_Unit="Arms"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-6" Name="uArms" Default_Unit="Arms"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e3" Name="kArms" Default_Unit="Arms"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="electrical RMS voltage">
+            <SI_Unit_Definition User_Specific="1" Name="Vrms"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mVrms" Default_Unit="Vrms"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-6" Name="uVrms" Default_Unit="Vrms"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e3" Name="kVrms" Default_Unit="Vrms"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e6" Name="MVrms" Default_Unit="Vrms"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="electrical apparent power">
+            <SI_Unit_Definition User_Specific="1" Name="VA"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mVA" Default_Unit="VA"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-6" Name="uVA" Default_Unit="VA"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e3" Name="kVA" Default_Unit="VA"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e6" Name="MVA" Default_Unit="VA"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="fluid absolute viscosity">
+            <Unit_Definition User_Specific="1" Conversion_String="*47.88025898" Name="lbfs/ft**2" Default_Unit="lb/ft/s"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="fluid kinematic viscosity">
+            <Unit_Definition User_Specific="1" Conversion_String="*0.000025806" Name="ft**2/hr" Default_Unit="ft**2/s"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.79211111e-7" Name="in**2/hr" Default_Unit="ft**2/s"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="fin geometrical density">
+            <SI_Unit_Definition User_Specific="1" Name="fins/m"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/2.54e-2" Name="fins/in"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="heat capacity">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mJ/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="J/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mJ/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e3" Name="kJ/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.8991e3" Name="Btu/degF"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.8991e3" Name="Btu/F"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="hyd/pneu leakage coefficient &amp; sonic conductance">
+            <Unit_Definition User_Specific="1" Conversion_String="*4.10701137e-6" Name="ft**3/s/psi" Default_Unit="USgal/s/psi"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*5.49027562e-7" Name="USgal/s/psi"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="hyd/pneu pressure &amp; bulk modulus">
+            <Unit_Definition User_Specific="1" Conversion_String="*6.894757293168361e3" Name="psig"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*248.843" Name="inAq" Default_Unit="psig"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="hyd/pneu pressure (absolute)">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e8" Name="kbarA" Default_Unit="psiA"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e2" Name="hPaA" Default_Unit="psiA"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.3332237e2" Name="torrA" Default_Unit="psiA"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*248.843" Name="inAqA" Default_Unit="psiA"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="hyd/pneu pump/motor displacement">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.63870640693e-5/2.0/M_PI" Name="in**3/rev"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*0.0283168466/2.0/M_PI" Name="ft**3/rev" Default_Unit="in**3/rev"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*0.00378541/2.0/M_PI" Name="USgal/rev" Default_Unit="in**3/rev"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="hyd/pneu pressure/flow rate gradient">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.46091634e7" Name="psi/ft**3/min" Default_Unit="psi/in**3/min"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*2.52446343e10" Name="psi/in**3/min"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.09284131e8" Name="psi/USgal/min" Default_Unit="psi/in**3/min"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="linear acceleration">
+            <Unit_Definition User_Specific="1" Conversion_String="*9.80665" Name="gn" Default_Unit="ft/s/s"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="linear motion damping coefficient">
+            <Unit_Definition User_Specific="1" Conversion_String="*175.126835" Name="lbf/(in/s)" Default_Unit="lbf/(ft/s)"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*14.5939029" Name="lbf/(ft/s)"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="linear windage coefficient">
+            <Unit_Definition User_Specific="1" Conversion_String="*47.880259" Name="lbf/(ft/s)**2"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*6.89475729e3" Name="lbf/(in/s)**2" Default_Unit="lbf/(ft/s)**2"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="mass">
+            <Unit_Definition User_Specific="1" Conversion_String="*6.479891e-5" Name="gr" Default_Unit="lb"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="magnetic field">
+            <Unit_Definition User_Specific="1" Conversion_String="*39.3701" Name="A/in" Default_Unit="A/ft"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*3.28084" Name="A/ft"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="molar mass">
+            <Unit_Definition User_Specific="1" Conversion_String="*0.453592" Name="lb/mol"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="variation of moment of inertia">
+            <SI_Unit_Definition User_Specific="1" Name="kgm**2/s" Default_Unit="lbft**2/s"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="gm**2/s" Default_Unit="lbft**2/s"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-4" Name="kgcm**2/s" Default_Unit="lbft**2/s"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-7" Name="gcm**2/s" Default_Unit="lbft**2/s"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-6" Name="kgmm**2/s" Default_Unit="lbft**2/s"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*4.214011009380481e-2" Name="lbft**2/s"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*2.926396534292000e-4" Name="lbin**2/s" Default_Unit="lbft**2/s"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*9.41540245948e-3" Name="slugin**2/s" Default_Unit="lbft**2/s"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/60.0" Name="kgm**2/min" Default_Unit="lbft**2/s"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/3600.0" Name="kgm**2/h" Default_Unit="lbft**2/s"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="rotary damping coefficient">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.3558*30.0/M_PI" Name="lbft/(rev/min)"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="rotary windage coefficient">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.35581795*900.0/M_PI/M_PI" Name="lbft/(rev/min)**2"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="specific heat capacity">
+            <SI_Unit_Definition User_Specific="1" Name="J/kg/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e3" Name="kJ/kg/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e3" Name="kJ/kg/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="J/kg/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*4.18680018802e3" Name="Btu/lb/degF"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="thermal insulance">
+            <Unit_Definition User_Specific="1" Conversion_String="*6.94444e-3*1.7611018368230600e-1" Name="in**2/(Btu/degF/h)" Default_Unit="ft**2/(Btu/degF/h)"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*2.77777778e-4*1.7611018368230600e-1" Name="ft**2/(Btu/degF/s)" Default_Unit="ft**2/(Btu/degF/h)"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*6.94444e-3*2.77777778e-4*1.7611018368230600e-1" Name="in**2/(Btu/degF/s)" Default_Unit="ft**2/(Btu/degF/h)"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="thermal resistance">
+            <SI_Unit_Definition User_Specific="1" Name="degC/W"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e+3" Name="degC/mW"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="degC/kW"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="thermal conductivity">
+            <SI_Unit_Definition User_Specific="1" Name="W/m/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mW/m/K"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.73073474409449" Name="Btu/h/ft/degF"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-3" Name="mW/m/degC"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="W/m/degC"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="cf index">
+            <SI_Unit_Definition User_Specific="1" Name="cfnull"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="thh node index">
+            <SI_Unit_Definition User_Specific="1" Name="tfnode"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="thh flow index">
+            <SI_Unit_Definition User_Specific="1" Name="tfflow"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="gas node index">
+            <SI_Unit_Definition User_Specific="1" Name="gasnode"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="gas flow index">
+            <SI_Unit_Definition User_Specific="1" Name="gasflow"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="mass fraction">
+            <SI_Unit_Definition User_Specific="1" Name="g/g" Default_Unit="lb/lb"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0e-6" Name="mg/kg" Default_Unit="lb/lb"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="lb/lb"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="fraction">
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="pu"/>
+            <Unit_Definition User_Specific="1" Conversion_String="*1.0" Name="perunit"/>
+        </Domain_Definition>
+        <Domain_Definition Domain="geometrical density">
+            <SI_Unit_Definition User_Specific="1" Name="per m"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/1.0e-1" Name="per dm"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/1.0e-2" Name="per cm"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/1.0e-3" Name="per mm"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/2.54e-2" Name="per in"/>
+            <Unit_Definition User_Specific="1" Conversion_String="/3.048e-1" Name="per ft"/>
+        </Domain_Definition>
+    </Configuration_Definition>
+    <Imported_Legacy_Configurations/>
+    <Local_Customization_Definition/>
+</Unit_Configuration>

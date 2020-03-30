@@ -1,0 +1,24 @@
+<svg viewBox="0 0 88 78" xmlns="http://www.w3.org/2000/svg" xmlns:amesim="vnd.lms.imagine.amesim" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <amesim:metadata>
+  <ICON name="atmosphere">
+   <ICON_DESCRIPTION>atmosphere</ICON_DESCRIPTION>
+  </ICON>
+  <PORTS>
+   <PORT x="88" face="3" type="signal" y="59">
+    <PORT_BITMAP>$AME/Icons/signal.svg</PORT_BITMAP>
+    <PORT_DECORATION visible="1" label="fuel_AmbTemp_temperature_degC" rect="4.41508 57.4117 67.6272 3.78765" orientation="0">
+     <PORT_DECORATION_FONT>MS Shell Dlg 2,-1,10,5,50,0,0,0,0,0</PORT_DECORATION_FONT>
+    </PORT_DECORATION>
+   </PORT>
+   <PORT x="88" face="3" type="signal" y="25">
+    <PORT_BITMAP>$AME/Icons/signal.svg</PORT_BITMAP>
+    <PORT_DECORATION visible="1" label="fuel_AmbPress_pressure_bar" rect="15.9805 23.4012 56.0618 3.7667" orientation="0">
+     <PORT_DECORATION_FONT>MS Shell Dlg 2,-1,10,5,50,0,0,0,0,0</PORT_DECORATION_FONT>
+    </PORT_DECORATION>
+   </PORT>
+  </PORTS>
+ </amesim:metadata>
+ <g id="object1">
+  <image height="78" x="0" width="88" xlink:href="data:image/bitmap;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAABOAQMAAACe1EPxAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAf0lEQVQokWNgGGSA/z8U/GBg4IAJcgwCNv//AbBXAcJOxMEOvl54+LqdxeYOIHui5CSVSCWXIx5AdqOgkJmgkksLkM35U1BIeaJSXfsJIJtTUEwhcNGBHg4wW1gjEKKGi/Wi4PF5SjbNJ6D2CiC5ARebruGAh02jeEFOh4MAAACQnS7LONPLnQAAAABJRU5ErkJggg==" id="object2" y="0" transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00)"/>
+ </g>
+</svg>

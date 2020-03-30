@@ -1,0 +1,3718 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE SUB>
+<SUB DOC_VERSION="2" AME_VERSION="2020.1. - DEV - 2019">
+
+ <SUPERCOMPONENT>
+  <SC_SUB_NAME>ENGINES_NOT_PREPARED</SC_SUB_NAME>
+  <CATNAME>FuelSystem</CATNAME>
+  <SC_PORTS_MAP_LIST>
+   <SC_PORT_MAP>4 0 189 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>4 1 201 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>4 2 213 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>4 3 225 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>4 4 237 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>4 5 249 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>4 6 261 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>4 7 273 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>4 8 285 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>4 9 297 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>9 0 493 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>9 1 505 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>9 2 517 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>9 3 529 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>9 4 541 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>9 5 553 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>9 6 565 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>9 7 577 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>9 8 589 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>9 9 601 234 1 signal 0.000000 0.000000</SC_PORT_MAP>
+  </SC_PORTS_MAP_LIST>
+  <CIRCUIT>
+   <AME_APPLICATION>AMESim</AME_APPLICATION>
+   <COMPS_LIST>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>thf_modulated_mpt_source</ALIAS>
+     <COMP_NAME>thf_modulated_mpt_source</COMP_NAME>
+     <COMP_DISPLAYNAME>thf_modulated_mpt_source</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>thermal-hydraulic modulated mass flow rate source</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>tf.thf_modulated_mpt_source</COMP_LIBRARY_ID>
+     <COMP_POS>218 137</COMP_POS>
+     <COMP_DEPTH>201</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>xbm</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        #define icon_width 48
+        #define icon_height 49
+        static unsigned char icon_bits[] = {
+        0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,
+        0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,
+        0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,
+        0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,
+        0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,
+        0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0xff,0xff,0xff,0xff,0x00,
+        0xc0,0xff,0xff,0xff,0xff,0x03,0xe0,0x00,0x00,0x00,0x00,0x07,0x30,0x00,0x00,
+        0x00,0x00,0x0c,0x18,0x00,0x00,0x00,0x00,0x18,0x18,0x00,0x00,0x00,0x00,0x18,
+        0x0c,0x00,0x00,0x00,0x00,0x30,0x0c,0xf0,0x00,0x00,0x00,0x30,0x0c,0x08,0xc0,
+        0x00,0x01,0x30,0x8c,0x19,0x20,0x01,0x01,0x30,0x86,0xf1,0x20,0x01,0xff,0x60,
+        0x0c,0x18,0x20,0x01,0x01,0x30,0x0c,0x08,0xe0,0x0f,0x01,0x30,0x0c,0xf0,0x00,
+        0x00,0x00,0x30,0x0c,0x00,0x00,0x00,0x00,0x30,0x18,0x00,0x00,0x00,0x00,0x18,
+        0x18,0x00,0x00,0x00,0x00,0x18,0x30,0x00,0x00,0x00,0x00,0x18,0xe0,0x00,0x00,
+        0x00,0x00,0x0e,0xc0,0xff,0xff,0xff,0xff,0x07,0x00,0xff,0xff,0xff,0xff,0x01,
+        0x00,0x10,0x00,0x01,0x10,0x00,0x00,0x10,0x00,0x01,0x10,0x00,0x00,0x38,0x80,
+        0x03,0x38,0x00,0x00,0x38,0x80,0x03,0x38,0x00,0x00,0x54,0x40,0x05,0x54,0x00,
+        0x00,0x54,0x40,0x05,0x54,0x00,0x00,0x92,0x20,0x09,0x92,0x00,0x00,0x10,0x00,
+        0x01,0x10,0x00,0x00,0x10,0x00,0x01,0x10,0x00,0x00,0x10,0x00,0x01,0x10,0x00,
+        0x00,0x10,0x00,0x01,0x10,0x00,0x00,0x10,0x00,0x01,0x10,0x00,0x00,0x10,0x00,
+        0x01,0x10,0x00,0x00,0x10,0x00,0x01,0x10,0x00
+        };
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>3</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>36 1</PORT_POS>
+       <PORT_FACE>0</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>2</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>0</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>24 1</PORT_POS>
+       <PORT_FACE>0</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>2</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>2</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>12 1</PORT_POS>
+       <PORT_FACE>0</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>2</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>24 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>hflow</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>1</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>4</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>10</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>1471</CIRCUIT_SCOPE_ID>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>TFMPT0</SUB_NAME>
+      <SUB_DIR>$AME/libthh/submodels</SUB_DIR>
+      <SUB_ID_MAX>38</SUB_ID_MAX>
+      <SUB_LABEL>conversion of signals into a mass flow rate and an enthalpy flow rate</SUB_LABEL>
+      <SUB_UNIT>0</SUB_UNIT>
+      <R_STORES_NUMBER>3</R_STORES_NUMBER>
+      <I_STORES_NUMBER>1</I_STORES_NUMBER>
+      <DISCONTINUITY>1</DISCONTINUITY>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <IPARAMS_LIST>
+       <IPARAM>
+        <SUB_ID>7</SUB_ID>
+        <TITLE>index of thermal hydraulic fluid</TITLE>
+        <VARNAME>fi</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>0</MIN_VALUE>
+        <MAX_VALUE>100</MAX_VALUE>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>12</SUB_ID>
+        <TITLE>energy balance</TITLE>
+        <VARNAME>thhuse</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>5</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>full (thermal-hydraulics)</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC51QwW7CMAw9D4l/sLwrtCktiFZkSDvvsD+YGITWIiRVkjXl7+eUbdphp+Vi++XZz8+7/XjVMCjnyRqJRSYQlDnaE5lW4kc4L7e4f5rPdn5of9NWCO8Hr16dPZNWEgOZGwKdJL7QoLS2bwXOZw/A042X2IXQN3keY8ximVnX5ishRM5D8U5pRk3m8hexqOs6n36ZKlH0I8LtK0Y6hU5itU1Fp6jtAlc1V0l7IBWfbeoBAdUWqhrBsoeztlGiPzqr9STf+P5wZBO9U165QWEyzIoK2JyWaKxRCD44e2HWo5jeN7C8UlBOEwc+DMNjIbHcZGtes0i7MbL6QVK2xjwJ9Fbf/i3SWzKBD1uWi7LO1pDGL8qKs0rckbtIOjHHT9/TP7jnAQAA
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isentropic global temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC52RTU7DMBCF11TqHUbDtk2cOKCkqqnEmgU3QKV1E6uuHdkmTm/PuD/AAqGKbMYzeXnP32S5Gg8aBum8skZgkTEEaTZ2q0wr8CPs5jWunqaTpR/an7IS4X3t5auzO6WlwKDMEUFtBb6oQWpt3wqcTu6A3I0X2IXQL/I8xphFnlnX5iVjLCdTPEsWo1Zm/5uwaJomP70lqUDWjwjHS41qGzqBVZ2aTqq2C9Q11KXsQcn4bNM3wKCqoWoQLDHstI0C/cZZrU/xC9+vNwTRO+mlGyQmYEqUQHBaoLFGIvjg7J5U9+z0XAfzgwrSaUWFFkPjsRDIH7MHumaR7kaT8muSTjWd8hTRW338d0xvlQm0Ws5nFYdkP+PEyFJ3tr/Z+rLG8m+k8orEL0gV+0Y6J6YfSvUT30iMJVUCAAA=
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isothermal global temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC52RTU7DMBCF11TqHUbDtk2cOKCkqqnEmgU3QKV1E6uuHdkmTm/PuD/AAqGKbMYzeXnP32S5Gg8aBum8skZgkTEEaTZ2q0wr8CPs5jWunqaTpR/an7IS4X3t5auzO6WlwKDMEUFtBb6oQWpt3wqcTu6A3I0X2IXQL/I8xphFnlnX5iVjLCdTPEsWo1Zm/5uwaJomP70lqUDWjwjHS41qGzqBVZ2aTqq2C9Q11KXsQcn4bNM3wKCqoWoQLDHstI0C/cZZrU/xC9+vNwTRO+mlGyQmYEqUQHBaoLFGIvjg7J5U9+z0XAfzgwrSaUWFFkPjsRDIH7MHumaR7kaT8muSTjWd8hTRW338d0xvlQm0Ws5nFYdkP+PEyFJ3tr/Z+rLG8m+k8orEL0gV+0Y6J6YfSvUT30iMJVUCAAA=
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isentropic local temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC62SUU/DIBDHn12y70DO162lg+lohkt89sFvYOZKWzIGDWDpvr3XVY1Rn8x4ubs/f+7HEba74WRIr3zQzkooMgpE2YOrtG0kvMV6uYHdw3y2DX3z3bYC8roP6tm7WhslIWp7BqIrCU+6V8a4lwLmsxuC3W2Q0MbYlXmeUsoSy5xv8hWlNMemMFnKwWh7/MtYCCHyyy5aJdBuAHL+iElXsZXAN2PRKt20ESuB1cjutUqPbjxDKOEbwgUQhzPUxiUJ4eCdMRd8Gbr9AYfovArK9wrGgZGoCA5nJFhnFZAQvTui65Ze1qewPOmovNEY8GFQHgoJ7C5b4zUx4xiH1ZeCGWeQXxNQ/AQwcVUAu/8FWE+AzpnzvyGd0zbi12BswUS2JmP7BeOYcTopE2T8JBjfAdXVTT2pAgAA
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isothermal local temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC62SUU/DIBDHn12y70DO162lg+lohkt89sFvYOZKWzIGDWDpvr3XVY1Rn8x4ubs/f+7HEba74WRIr3zQzkooMgpE2YOrtG0kvMV6uYHdw3y2DX3z3bYC8roP6tm7WhslIWp7BqIrCU+6V8a4lwLmsxuC3W2Q0MbYlXmeUsoSy5xv8hWlNMemMFnKwWh7/MtYCCHyyy5aJdBuAHL+iElXsZXAN2PRKt20ESuB1cjutUqPbjxDKOEbwgUQhzPUxiUJ4eCdMRd8Gbr9AYfovArK9wrGgZGoCA5nJFhnFZAQvTui65Ze1qewPOmovNEY8GFQHgoJ7C5b4zUx4xiH1ZeCGWeQXxNQ/AQwcVUAu/8FWE+AzpnzvyGd0zbi12BswUS2JmP7BeOYcTopE2T8JBjfAdXVTT2pAgAA
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>26</SUB_ID>
+        <TITLE>aeration/dissolution</TITLE>
+        <VARNAME>aeropt</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>3</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>constant gas content</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>gas transport</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>gas transport and dynamics</ENUM_STRING>
+         </ENUM>
+        </ENUM_LIST>
+        <RECOMPILE>1</RECOMPILE>
+       </IPARAM>
+      </IPARAMS_LIST>
+      <PARAMS_GROUPS_LIST>
+       <PARAMS_GROUP>
+        <ORIG_TITLE>power, energy, activity</ORIG_TITLE>
+        <NAME>Emanagement</NAME>
+        <SUB_ID>38</SUB_ID>
+        <CIRCUIT_SCOPE_ID>51</CIRCUIT_SCOPE_ID>
+        <EDITABLE_TITLE>1</EDITABLE_TITLE>
+        <PARAM_GROUP_ELEMENT_LIST>
+         <PARAM_GROUP_ELEMENT>
+          <PARAM_GROUP_ELEMENT_VARNAME>energySdmsource</PARAM_GROUP_ELEMENT_VARNAME>
+          <PARAM_GROUP_ELEMENT_DISPLAY>2</PARAM_GROUP_ELEMENT_DISPLAY>
+         </PARAM_GROUP_ELEMENT>
+         <PARAM_GROUP_ELEMENT>
+          <PARAM_GROUP_ELEMENT_VARNAME>actSdmsource</PARAM_GROUP_ELEMENT_VARNAME>
+          <PARAM_GROUP_ELEMENT_DISPLAY>2</PARAM_GROUP_ELEMENT_DISPLAY>
+         </PARAM_GROUP_ELEMENT>
+         <PARAM_GROUP_ELEMENT>
+          <PARAM_GROUP_ELEMENT_VARNAME>powerSdmsource</PARAM_GROUP_ELEMENT_VARNAME>
+          <PARAM_GROUP_ELEMENT_DISPLAY>1</PARAM_GROUP_ELEMENT_DISPLAY>
+         </PARAM_GROUP_ELEMENT>
+        </PARAM_GROUP_ELEMENT_LIST>
+        <EDITABLE>0</EDITABLE>
+       </PARAMS_GROUP>
+      </PARAMS_GROUPS_LIST>
+      <IVARS_LIST>
+       <IVAR>
+        <SUB_ID>30</SUB_ID>
+        <TITLE>local pressure</TITLE>
+        <VARNAME>ploc</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>0</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNPLOTTABLE>1</UNPLOTTABLE>
+        <UNITS>PaA</UNITS>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>31</SUB_ID>
+        <TITLE>local temperature</TITLE>
+        <VARNAME>Tloc</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>0</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNPLOTTABLE>1</UNPLOTTABLE>
+        <UNITS>degC</UNITS>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>24</SUB_ID>
+        <TITLE>total gas mass fraction</TITLE>
+        <NB_IN_GROUP>aeropt>1</NB_IN_GROUP>
+        <VARNAME>xg</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>0</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNPLOTTABLE>1</UNPLOTTABLE>
+        <UNITS>g/g</UNITS>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>25</SUB_ID>
+        <TITLE>undissolved gas mass fraction</TITLE>
+        <NB_IN_GROUP>aeropt==3</NB_IN_GROUP>
+        <VARNAME>xu</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>0</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNPLOTTABLE>1</UNPLOTTABLE>
+        <UNITS>g/g</UNITS>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>27</SUB_ID>
+        <TITLE>volumetric flow rate at port 4</TITLE>
+        <VARNAME>q4</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>0</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>L/min</UNITS>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>35</SUB_ID>
+        <TITLE>power of thermodynamic source (dmsource)</TITLE>
+        <VARNAME>powerSdmsource</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>9</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>W</UNITS>
+        <PHYS_TYPE>4</PHYS_TYPE>
+        <PHYS_DOMAIN>7</PHYS_DOMAIN>
+        <ACT_SUFFIX>dmsource</ACT_SUFFIX>
+        <ACT_TYPE>2</ACT_TYPE>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>36</SUB_ID>
+        <TITLE>energy of thermodynamic source (dmsource)</TITLE>
+        <VARNAME>energySdmsource</VARNAME>
+        <VARNAME2>denergySdmsource</VARNAME2>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>1</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>J</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <PHYS_TYPE>4</PHYS_TYPE>
+        <PHYS_DOMAIN>7</PHYS_DOMAIN>
+        <ACT_SUFFIX>dmsource</ACT_SUFFIX>
+        <ACT_TYPE>3</ACT_TYPE>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>37</SUB_ID>
+        <TITLE>activity of thermodynamic source (dmsource)</TITLE>
+        <VARNAME>actSdmsource</VARNAME>
+        <VARNAME2>dactSdmsource</VARNAME2>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>1</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>J</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <PHYS_TYPE>4</PHYS_TYPE>
+        <PHYS_DOMAIN>7</PHYS_DOMAIN>
+        <ACT_SUFFIX>dmsource</ACT_SUFFIX>
+        <ACT_TYPE>1</ACT_TYPE>
+       </IVAR>
+      </IVARS_LIST>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>1</SUB_ID>
+         <TITLE>mass flow rate signal at port 1</TITLE>
+         <VARNAME>dm1</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>2</SUB_ID>
+         <TITLE>pressure signal at port 2</TITLE>
+         <VARNAME>p2</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>13</SUB_ID>
+         <TITLE>temperature signal at port 3</TITLE>
+         <VARNAME>t3</VARNAME>
+         <VISIBILITY>(thhuse!=2)&&(thhuse!=3)</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>3</SUB_ID>
+         <TITLE>mass flow rate at port 4</TITLE>
+         <VARNAME>dm4</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>kg/s</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>4</SUB_ID>
+         <TITLE>enthalpy flow rate at port 4</TITLE>
+         <VARNAME>dmh4</VARNAME>
+         <VISIBILITY>(thhuse==1)</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>W</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>16</SUB_ID>
+         <TITLE>volume at port 4</TITLE>
+         <VARNAME>vol4</VARNAME>
+         <VISIBILITY>False</VISIBILITY>
+         <TYPE>5</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNPLOTTABLE>1</UNPLOTTABLE>
+         <UNITS>cm**3</UNITS>
+         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+         <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+         <VALUE>0.00000000000000e+00</VALUE>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>18</SUB_ID>
+         <TITLE>derivative of volume at port 4</TITLE>
+         <VARNAME>dvol4</VARNAME>
+         <VISIBILITY>False</VISIBILITY>
+         <TYPE>5</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNPLOTTABLE>1</UNPLOTTABLE>
+         <UNITS>L/min</UNITS>
+         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+         <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+         <VALUE>0.00000000000000e+00</VALUE>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>19</SUB_ID>
+         <TITLE>flow index at port 4</TITLE>
+         <VARNAME>flowid4</VARNAME>
+         <VISIBILITY>False</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNPLOTTABLE>1</UNPLOTTABLE>
+         <UNITS>tfflow</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>5</SUB_ID>
+         <TITLE>pressure at port 4</TITLE>
+         <VARNAME>p4</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>barA</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>6</SUB_ID>
+         <TITLE>temperature at port 4</TITLE>
+         <VARNAME>t4</VARNAME>
+         <VISIBILITY>(thhuse!=2)&&(thhuse!=3)</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>degC</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>21</SUB_ID>
+         <TITLE>node index at port 4</TITLE>
+         <VARNAME>nodeid4</VARNAME>
+         <VISIBILITY>False</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>3</IO>
+         <UNPLOTTABLE>1</UNPLOTTABLE>
+         <UNITS>tfnode</UNITS>
+         <DEF_VALUE>-1.00000000000000e+00</DEF_VALUE>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACC92XTXObMBCG7/4VGvWQ9iAh8WWTAWfaQ889pGcPwQKUCMSAbOz8+q4Ibe3ETTPjtDOGGe+OXu0K69HrD+KbXaXQVrSd1HWCOWUYiTrTa1kXCf5++5Us8M1yFnfbAm2l6L/oXYIZYshfID/CCLrrLsGlMc214/R9T3uP6rZwXMaYA11jyfVOyfrhVCGPosgZZvFyhuCKCyTXCS5avWlWfBSHCSN2BuW6NiRPK6n2Cb763MpUXeEntZOPAvbAmh1Gpk3rLtdtleAqNa3cfWSUMUS4jUMYxjy00V3QgH3Cw3313b3IjAtLSqUS/IEN19OQ6CbNpNkPoEDrTKsfxEHRk0DWaVembZtC4ZGm87wTBgAedBPYusjSJsF3G2OO1Hst4UwqaUT7Sx9GSkJKsH+4zMm3Rnq5NuWoLavYsQj/LVFgaeP8OVFvikS//Q+iXgQsTxD1p0j09gVRoZRsOoEy+OaZY5RBuwtbb2HIIe2H9BLlb37sGKcNRxyDS+DI2ZtBMjAKdg4INqkpEWy38kLqIc+nQUlcn4YZCaiPGInonPjUHzK8QLH6qKBRLaEjyIYGK9lpNE5TjgLqwRLeWBza/HjeqYQ/T6XWtbgk/K7VRvyxUxz9qGWbzqz8VZkr3eNTJ+QC3i0P3o4uOIFucano+N/QeatOFnWq8B/cHcCfki1xaXCe9zibLEH3NYL2Iz4Q5N7ZCN0pIHyGhyOfKUBDAgQRnYvIm6zL+Gsu4+77uSyYnsui9zVZOBmTxfZ5cjn7ATtnbkazDgAA
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>signal03</ALIAS>
+     <COMP_NAME>signal03</COMP_NAME>
+     <COMP_DISPLAYNAME>signal03</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>piecewise linear signal source</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>sig.signal03</COMP_LIBRARY_ID>
+     <COMP_POS>258 74</COMP_POS>
+     <COMP_DEPTH>202</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>xbm</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        #define icon_width 40
+        #define icon_height 29
+        static unsigned char icon_bits[] = {
+        0x00,0xf8,0x03,0x00,0x00,0x00,0x07,0x1c,0x00,0x00,0x80,0x00,0x20,0x00,0x00,
+        0x60,0x00,0xc0,0x00,0x00,0x10,0x00,0x04,0x01,0x00,0x08,0x00,0x06,0x02,0x00,
+        0x08,0x00,0x06,0x02,0x00,0x04,0x00,0x09,0x04,0x00,0x02,0x00,0x09,0x08,0x00,
+        0x02,0x80,0x08,0x08,0x00,0x02,0x80,0x08,0x08,0x00,0x01,0x78,0x10,0x30,0x00,
+        0x01,0x04,0x10,0xd0,0x00,0x01,0x04,0x10,0x10,0x03,0x01,0x02,0x10,0x10,0xfe,
+        0x01,0x02,0x10,0x10,0x03,0x01,0x01,0x20,0xd0,0x00,0x01,0x01,0x20,0x30,0x00,
+        0xf2,0x00,0xe0,0x0b,0x00,0x02,0x00,0x00,0x08,0x00,0x02,0x00,0x00,0x08,0x00,
+        0x04,0x00,0x00,0x04,0x00,0x08,0x00,0x00,0x02,0x00,0x08,0x00,0x00,0x02,0x00,
+        0x10,0x00,0x00,0x01,0x00,0x60,0x00,0xc0,0x00,0x00,0x80,0x00,0x20,0x00,0x00,
+        0x00,0x07,0x1c,0x00,0x00,0x00,0xf8,0x03,0x00,0x00
+        };
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>2</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>15 40</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>2</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>0</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>1255</CIRCUIT_SCOPE_ID>
+     <ELEMENT_PROPERTIES>
+      <ELEMENT_CONFIGURATION_NAME></ELEMENT_CONFIGURATION_NAME>
+     </ELEMENT_PROPERTIES>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>UD00</SUB_NAME>
+      <SUB_DIR>$AME/libsig/submodels</SUB_DIR>
+      <SUB_ID_MAX>28</SUB_ID_MAX>
+      <SUB_LABEL>piecewise linear signal source</SUB_LABEL>
+      <SUB_UNIT>0</SUB_UNIT>
+      <R_STORES_NUMBER>11</R_STORES_NUMBER>
+      <I_STORES_NUMBER>3</I_STORES_NUMBER>
+      <DISCONTINUITY>1</DISCONTINUITY>
+      <TIME_REQUIRED>1</TIME_REQUIRED>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <RPARAMS_LIST>
+       <RPARAM>
+        <SUB_ID>2</SUB_ID>
+        <TITLE>time at which duty cycle starts</TITLE>
+        <VARNAME>tstart</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>3</SUB_ID>
+        <TITLE>output at start of stage 1</TITLE>
+        <VARNAME>start1</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>-2*0.392</DEF_VALUE>
+        <VALUE>-2*0.392</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>4</SUB_ID>
+        <TITLE>output at end of stage 1</TITLE>
+        <VARNAME>end1</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>-2*0.392</DEF_VALUE>
+        <VALUE>-2*0.392</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>5</SUB_ID>
+        <TITLE>duration of stage 1</TITLE>
+        <VARNAME>t1</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>6</SUB_ID>
+        <TITLE>output at start of stage 2</TITLE>
+        <VARNAME>start2</VARNAME>
+        <VISIBILITY>(nstages == 2)||(nstages == 3)||(nstages == 4)||(nstages == 5)||(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>-2*0.392</DEF_VALUE>
+        <VALUE>-2*0.392</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>7</SUB_ID>
+        <TITLE>output at end of stage 2</TITLE>
+        <VARNAME>end2</VARNAME>
+        <VISIBILITY>(nstages == 2)||(nstages == 3)||(nstages == 4)||(nstages == 5)||(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>8</SUB_ID>
+        <TITLE>duration of stage 2</TITLE>
+        <VARNAME>t2</VARNAME>
+        <VISIBILITY>(nstages == 2)||(nstages == 3)||(nstages == 4)||(nstages == 5)||(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>3.00000000000000e+01</DEF_VALUE>
+        <VALUE>3.00000000000000e+01</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>9</SUB_ID>
+        <TITLE>output at start of stage 3</TITLE>
+        <VARNAME>start3</VARNAME>
+        <VISIBILITY>(nstages == 3)||(nstages == 4)||(nstages == 5)||(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>10</SUB_ID>
+        <TITLE>output at end of stage 3</TITLE>
+        <VARNAME>end3</VARNAME>
+        <VISIBILITY>(nstages == 3)||(nstages == 4)||(nstages == 5)||(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>11</SUB_ID>
+        <TITLE>duration of stage 3</TITLE>
+        <VARNAME>t3</VARNAME>
+        <VISIBILITY>(nstages == 3)||(nstages == 4)||(nstages == 5)||(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>12</SUB_ID>
+        <TITLE>output at start of stage 4</TITLE>
+        <VARNAME>start4</VARNAME>
+        <VISIBILITY>(nstages == 4)||(nstages == 5)||(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>13</SUB_ID>
+        <TITLE>output at end of stage 4</TITLE>
+        <VARNAME>end4</VARNAME>
+        <VISIBILITY>(nstages == 4)||(nstages == 5)||(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>14</SUB_ID>
+        <TITLE>duration of stage 4</TITLE>
+        <VARNAME>t4</VARNAME>
+        <VISIBILITY>(nstages == 4)||(nstages == 5)||(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>15</SUB_ID>
+        <TITLE>output at start of stage 5</TITLE>
+        <VARNAME>start5</VARNAME>
+        <VISIBILITY>(nstages == 5)||(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>16</SUB_ID>
+        <TITLE>output at end of stage 5</TITLE>
+        <VARNAME>end5</VARNAME>
+        <VISIBILITY>(nstages == 5)||(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>17</SUB_ID>
+        <TITLE>duration of stage 5</TITLE>
+        <VARNAME>t5</VARNAME>
+        <VISIBILITY>(nstages == 5)||(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>18</SUB_ID>
+        <TITLE>output at start of stage 6</TITLE>
+        <VARNAME>start6</VARNAME>
+        <VISIBILITY>(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>19</SUB_ID>
+        <TITLE>output at end of stage 6</TITLE>
+        <VARNAME>end6</VARNAME>
+        <VISIBILITY>(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>20</SUB_ID>
+        <TITLE>duration of stage 6</TITLE>
+        <VARNAME>t6</VARNAME>
+        <VISIBILITY>(nstages == 6)||(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>21</SUB_ID>
+        <TITLE>output at start of stage 7</TITLE>
+        <VARNAME>start7</VARNAME>
+        <VISIBILITY>(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>22</SUB_ID>
+        <TITLE>output at end of stage 7</TITLE>
+        <VARNAME>end7</VARNAME>
+        <VISIBILITY>(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>23</SUB_ID>
+        <TITLE>duration of stage 7</TITLE>
+        <VARNAME>t7</VARNAME>
+        <VISIBILITY>(nstages == 7)||(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>24</SUB_ID>
+        <TITLE>output at start of stage 8</TITLE>
+        <VARNAME>start8</VARNAME>
+        <VISIBILITY>(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>25</SUB_ID>
+        <TITLE>output at end of stage 8</TITLE>
+        <VARNAME>end8</VARNAME>
+        <VISIBILITY>(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>26</SUB_ID>
+        <TITLE>duration of stage 8</TITLE>
+        <VARNAME>t8</VARNAME>
+        <VISIBILITY>(nstages == 8)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+      </RPARAMS_LIST>
+      <IPARAMS_LIST>
+       <IPARAM>
+        <SUB_ID>27</SUB_ID>
+        <TITLE>number of stages</TITLE>
+        <VARNAME>nstages</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>3</DEF_VALUE>
+        <VALUE>3</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>8</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>1</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>2</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>3</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>4</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>5</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>6</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>7</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>8</ENUM_STRING>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>28</SUB_ID>
+        <TITLE>cyclic</TITLE>
+        <VARNAME>iscyclic</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>2</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>no</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>yes</ENUM_STRING>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+      </IPARAMS_LIST>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>1</SUB_ID>
+         <TITLE>user defined duty cycle output</TITLE>
+         <VARNAME>output</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <EMBEDDED_TOOLS_LIST>
+       <EMBEDDED_TOOL>
+        <EDITION_TOOL>ILApp $AME/libsig/utils/SIGPiecewiseLinearDesigner_app/SIGPiecewiseLinearDesigner.app</EDITION_TOOL>
+        <TOOL_NAME>piecewise linear designer</TOOL_NAME>
+        <TOOL_DEFAULT_ACTION_MODES>4</TOOL_DEFAULT_ACTION_MODES>
+       </EMBEDDED_TOOL>
+      </EMBEDDED_TOOLS_LIST>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>constant_10</ALIAS>
+     <COMP_NAME>constant</COMP_NAME>
+     <COMP_DISPLAYNAME>constant</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>constant signal source</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>sig.constant</COMP_LIBRARY_ID>
+     <COMP_POS>195 74</COMP_POS>
+     <COMP_DEPTH>203</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>xbm</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        #define icon_width 40
+        #define icon_height 29
+        static unsigned char icon_bits[] = {
+        0x00,0xf8,0x03,0x00,0x00,0x00,0x07,0x1c,0x00,0x00,0x80,0x00,0x20,0x00,0x00,
+        0x60,0x00,0xc0,0x00,0x00,0x10,0x00,0x00,0x01,0x00,0x08,0x00,0x00,0x02,0x00,
+        0x08,0x00,0x00,0x02,0x00,0x04,0x00,0x00,0x04,0x00,0x02,0x00,0x00,0x08,0x00,
+        0x02,0x20,0x00,0x08,0x00,0x02,0x20,0x00,0x08,0x00,0x01,0x20,0x00,0x30,0x00,
+        0x01,0x20,0x02,0xd0,0x00,0x01,0x20,0x01,0x10,0x03,0x01,0xa0,0x00,0x10,0xfe,
+        0x01,0x60,0x00,0x10,0x03,0x01,0xa0,0x00,0xd0,0x00,0x01,0x20,0x01,0x30,0x00,
+        0x02,0x20,0x02,0x08,0x00,0x02,0x00,0x00,0x08,0x00,0x02,0x00,0x00,0x08,0x00,
+        0x04,0x00,0x00,0x04,0x00,0x08,0x00,0x00,0x02,0x00,0x08,0x00,0x00,0x02,0x00,
+        0x10,0x00,0x00,0x01,0x00,0x60,0x00,0xc0,0x00,0x00,0x80,0x00,0x20,0x00,0x00,
+        0x00,0x07,0x1c,0x00,0x00,0x00,0xf8,0x03,0x00,0x00
+        };
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>2</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>15 40</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>2</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>406</CIRCUIT_SCOPE_ID>
+     <ELEMENT_PROPERTIES>
+      <ELEMENT_CONFIGURATION_NAME></ELEMENT_CONFIGURATION_NAME>
+     </ELEMENT_PROPERTIES>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>CONS00</SUB_NAME>
+      <SUB_DIR>$AME/libsig/submodels</SUB_DIR>
+      <SUB_ID_MAX>28</SUB_ID_MAX>
+      <SUB_LABEL>constant signal</SUB_LABEL>
+      <SUB_UNIT>1</SUB_UNIT>
+      <DISCONTINUITY>1</DISCONTINUITY>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <RPARAMS_LIST>
+       <RPARAM>
+        <SUB_ID>3</SUB_ID>
+        <TITLE>constant value</TITLE>
+        <VARNAME>k</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TUNABLE>True</TUNABLE>
+        <DEF_VALUE>2.00000000000000e+01</DEF_VALUE>
+        <VALUE>2.00000000000000e+01</VALUE>
+        <HISTORY_VARIABLE>k0GEN</HISTORY_VARIABLE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+      </RPARAMS_LIST>
+      <IVARS_LIST>
+       <IVAR>
+        <SUB_ID>28</SUB_ID>
+        <TITLE>constant value - Linked variable</TITLE>
+        <VARNAME>k0GEN</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>10</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>null</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+       </IVAR>
+      </IVARS_LIST>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>24</SUB_ID>
+         <TITLE>output</TITLE>
+         <VARNAME>out</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>constant_11</ALIAS>
+     <COMP_NAME>constant</COMP_NAME>
+     <COMP_DISPLAYNAME>constant</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>constant signal source</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>sig.constant</COMP_LIBRARY_ID>
+     <COMP_POS>227 73</COMP_POS>
+     <COMP_DEPTH>204</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>xbm</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        #define icon_width 40
+        #define icon_height 29
+        static unsigned char icon_bits[] = {
+        0x00,0xf8,0x03,0x00,0x00,0x00,0x07,0x1c,0x00,0x00,0x80,0x00,0x20,0x00,0x00,
+        0x60,0x00,0xc0,0x00,0x00,0x10,0x00,0x00,0x01,0x00,0x08,0x00,0x00,0x02,0x00,
+        0x08,0x00,0x00,0x02,0x00,0x04,0x00,0x00,0x04,0x00,0x02,0x00,0x00,0x08,0x00,
+        0x02,0x20,0x00,0x08,0x00,0x02,0x20,0x00,0x08,0x00,0x01,0x20,0x00,0x30,0x00,
+        0x01,0x20,0x02,0xd0,0x00,0x01,0x20,0x01,0x10,0x03,0x01,0xa0,0x00,0x10,0xfe,
+        0x01,0x60,0x00,0x10,0x03,0x01,0xa0,0x00,0xd0,0x00,0x01,0x20,0x01,0x30,0x00,
+        0x02,0x20,0x02,0x08,0x00,0x02,0x00,0x00,0x08,0x00,0x02,0x00,0x00,0x08,0x00,
+        0x04,0x00,0x00,0x04,0x00,0x08,0x00,0x00,0x02,0x00,0x08,0x00,0x00,0x02,0x00,
+        0x10,0x00,0x00,0x01,0x00,0x60,0x00,0xc0,0x00,0x00,0x80,0x00,0x20,0x00,0x00,
+        0x00,0x07,0x1c,0x00,0x00,0x00,0xf8,0x03,0x00,0x00
+        };
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>2</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>15 40</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>2</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>2</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>1474</CIRCUIT_SCOPE_ID>
+     <ELEMENT_PROPERTIES>
+      <ELEMENT_CONFIGURATION_NAME></ELEMENT_CONFIGURATION_NAME>
+     </ELEMENT_PROPERTIES>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>CONS00</SUB_NAME>
+      <SUB_DIR>$AME/libsig/submodels</SUB_DIR>
+      <SUB_ID_MAX>28</SUB_ID_MAX>
+      <SUB_LABEL>constant signal</SUB_LABEL>
+      <SUB_UNIT>1</SUB_UNIT>
+      <DISCONTINUITY>1</DISCONTINUITY>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <RPARAMS_LIST>
+       <RPARAM>
+        <SUB_ID>3</SUB_ID>
+        <TITLE>constant value</TITLE>
+        <VARNAME>k</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TUNABLE>True</TUNABLE>
+        <DEF_VALUE>1.00000000000000e+00</DEF_VALUE>
+        <VALUE>1.00000000000000e+00</VALUE>
+        <HISTORY_VARIABLE>k0GEN</HISTORY_VARIABLE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+      </RPARAMS_LIST>
+      <IVARS_LIST>
+       <IVAR>
+        <SUB_ID>28</SUB_ID>
+        <TITLE>constant value - Linked variable</TITLE>
+        <VARNAME>k0GEN</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>10</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>null</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+       </IVAR>
+      </IVARS_LIST>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>24</SUB_ID>
+         <TITLE>output</TITLE>
+         <VARNAME>out</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>thh2sig2</ALIAS>
+     <COMP_NAME>thh2sig2</COMP_NAME>
+     <COMP_DISPLAYNAME>thh2sig2</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>conversion between thermal hydraulic and signal variables (with volume)</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>tf.thh2sig2</COMP_LIBRARY_ID>
+     <COMP_POS>176 186</COMP_POS>
+     <COMP_DEPTH>205</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACC8WY32/bNhDH3/NXECwwr4At85doMbNSbAWGPaxAH7q9BopMy2xlyZAU/+hfv6NIqQma2I1ir36Q6SN1X37udNLJ83f7dY62uqpNWcQjGpAR0kVaLkyRxaN/Pv05iUbvbq7m9TbrV2EaMIzMIsZ/m63O8/KWYnSX1PpjVS5NrmPcmOKAEXgu6utkrWuzjvG2WAT5ug7MOslMoQNnx+gQY7LZY7Qzi2YFvjmzv9y5+9wUX2K8aprN9XS62+2CHQ/KKptSpdS0nYWl3kEJ+1vm5S7GdVqVeY7R1ujdH6WdRwSBYySU9/yUT0YImQInRittslUTY6H8Vq7rTZIC16bSta62Gt9coXnWhiCryvsNBAAsaL5JmhWqm6r8oieLpF4lVZUAH+5sa9PoKjfwBaAkIMSFsbz7rNOGRhhB+PIYv1m2H4yaKinqZVlB+NZJU5n9r5AggOkPj3++7YVK2K9pDjZVVsRZwTFpP/0yH3P2YNEEgqrTZBPju/umeWT9XBpIfsvgdvq0TEteLpe1BkoHCYwfKFw1Yy5WlKhApmFAx2SsAjYRYLbfKghzMia/vNkvfoNDYg/KHVIyCQMOK6ldNfGr/7Ie30twREUQjdmYKjgwEXDr5z0MFZjtPBdjr/4VT9tENXrfoGVZNJPafNU2GTbT34cbzmaccaEndIYmFFH0yEIlYrMgJERA6Ft3y2RtcgjI6PfKJPkI33ycT63YOVWt5EndT+fX5a2ugowe0d2fX1dyqxsd512fX5dSamWP4v57AVkW/gzZWQhR5vRElFfnF47sZcXZ8PRGw65mhRg/LpqdXbRlhVvU4BKSw2SBlRwXzc6fWKV+QlpB9P+PLyXE5vVEiO/PH2KhXnVDHhbisIU9UTsPYVNTpbl+ugnCKIXTIGUhjKBVC0M7OtGwELumgtP94/wHBGQnIGeXEYg6gZm6sICilxHoc0CpfKH/+TT71hKn93VzS+ntynbjrjG27eNz2q7nLcpCQ6/NIEHtFbCn3egAo6d62AOspeFz8uS2NlmR5C/XV7LTdyOrz9UzG4A3ChffTZkfsrJAG2iSG3i/UHAVQMOJrI8xjwKKFPcW1raifkYFqr19RNaEnqFRg2EoIx2NHw7DoczvvvXigCideRuVDslPtkxMHGeKhjORqGdyw4FM8FLg9m+9eCYSdjbhmdxky0TZcabZYKZIdEhuNIwo8gmxPhxP5BEj4mjcjIWJouMscjDLjHUsbjSMZeYTYX04FulLSkaOxc1Ylpk8zhIOZpF9+chXVI/0xSP72gl9pkJfObIvHHmibsRgFtGXjeirRjzHwsMHLD+q0vGKliVEoi0duORQyJwFfS/3NCYfjMn7+zeXl8Xk3EFx2WEK8kJMNhiT9XcMJi6LyaiDYqLDZNELMekrHmDfnl+XxVSOibKOksrTlHP7j+HN1X+dKviDRxUAAA==
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_GRAPHICS>
+       IDxQT1JUUz4KICA8UE9SVCB4PSIxMyIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSIyNSIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSIzNyIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSI0OSIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSI2MSIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSI3MyIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSI4NSIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSI5NyIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSIxMDkiIHk9IjQ5IiB0eXBlPSJzaWduYWwiIGZhY2U9IjEiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgeD0iMTIxIiB5PSI0OSIgdHlwZT0ic2lnbmFsIiBmYWNlPSIxIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIHg9IjY2IiB5PSIxIiB0eXBlPSJoZmxvdyIgZmFjZT0iMCI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL2hmbG93MXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogPC9QT1JUUz4K
+      </CIR_PORT_GRAPHICS>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>1</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>13 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>25 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>37 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>2</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>49 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>3</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>61 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>73 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>5</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>85 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>6</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>97 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>7</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>109 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>8</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>121 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>9</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>66 1</PORT_POS>
+       <PORT_FACE>0</PORT_FACE>
+       <PORT_TYPE>hflow</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>1</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>0</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>3</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>1482</CIRCUIT_SCOPE_ID>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>TFSG1</SUB_NAME>
+      <SUB_DIR>$AME/libthh/submodels</SUB_DIR>
+      <SUB_ID_MAX>101</SUB_ID_MAX>
+      <SUB_LABEL>conversion of signals to thermal hydraulic flow variables</SUB_LABEL>
+      <SUB_UNIT>1</SUB_UNIT>
+      <R_STORES_NUMBER>2</R_STORES_NUMBER>
+      <I_STORES_NUMBER>2</I_STORES_NUMBER>
+      <HAS_NO_CALC>1</HAS_NO_CALC>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <IPARAMS_LIST>
+       <IPARAM>
+        <SUB_ID>30</SUB_ID>
+        <TITLE>index of thermal hydraulic fluid</TITLE>
+        <VARNAME>fi</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>0</MIN_VALUE>
+        <MAX_VALUE>100</MAX_VALUE>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>34</SUB_ID>
+        <TITLE>energy balance</TITLE>
+        <VARNAME>thhuse</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>5</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>full (thermal-hydraulics)</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC51Qy07DMBA8U6n/sFqubeI8KjVVTSXOHPgDVNptYtW1I9vEyd+zTgFx4IQvuzse78x4fxhvGgZyXlkjscgEApmTPSvTSvwIl/UWD0/Lxd4P7W9aifB+9PTq7EVpkhiUmRDUWeKLGkhr+1bgcvEAvN14iV0I/S7PY4xZrDLr2rwUQuS8FO+U3aiVuf5FLJqmyedbpkoU/YgwfdWozqFjO1WZpo5U2wWJdcNTEh8UxWebHoEAJkHdIFhOcdE2SvQnZ7WeDex8fzxxjN6RJzcQpsisScDxtERjDSH44OyVWY9iPt/A+qYCOa24sBeGx0JiWWcbNspdvWWk/EG4qzaYJ4He6unfIr1VJvDXlsWqarINpPWrqk7d9o7cRdInc/0EUDDKq+kBAAA=
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isentropic global temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC51Ry27DIBA8N1L+AW2viY2x09pRaKSee+gfVKlDbBQCFlBj/30X56Eeqioql90dhp2dZbMdTor0wjppNIcsoUCErs1e6obDlz8sS9i+zGcb1zc/aQzI586Jd2sOUgkOXuoRiNxzeJO9UMp8ZDCfPRDsrh2H1vtunaYhhCTkibFNyiilKTaFM2U9KKmPvxGzqqrS6RapHGg3ABkvMci9b3GcnMWqFbJpPYeiwiqK91KEVxMfEUqQRIoKiEEXB2UCB1dbo9Q0wNp1uxptdFY4YXsB0TJqCoL2FAdttADivDVHZD3S6VyB5Ul6YZXEgLMgPGQcWJGscFDMihIRdkMwy58hjQKdUeO/RTojtcfVsmxRZMmKxPaL/Clm5Rk5i9wtcFkm+9sWvdqKUhdj5c1YxCbV+LUYvwFo8NNAXwIAAA==
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isothermal global temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC51Ry27DIBA8N1L+AW2viY2x09pRaKSee+gfVKlDbBQCFlBj/30X56Eeqioql90dhp2dZbMdTor0wjppNIcsoUCErs1e6obDlz8sS9i+zGcb1zc/aQzI586Jd2sOUgkOXuoRiNxzeJO9UMp8ZDCfPRDsrh2H1vtunaYhhCTkibFNyiilKTaFM2U9KKmPvxGzqqrS6RapHGg3ABkvMci9b3GcnMWqFbJpPYeiwiqK91KEVxMfEUqQRIoKiEEXB2UCB1dbo9Q0wNp1uxptdFY4YXsB0TJqCoL2FAdttADivDVHZD3S6VyB5Ul6YZXEgLMgPGQcWJGscFDMihIRdkMwy58hjQKdUeO/RTojtcfVsmxRZMmKxPaL/Clm5Rk5i9wtcFkm+9sWvdqKUhdj5c1YxCbV+LUYvwFo8NNAXwIAAA==
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isentropic local temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC62SwU4DIRCGzzbpO5DxanfZZRtLU2zi2YNvYGpLd0kpswFctm/v0Kox6smUywzDz3zzE1br8WjZoH0w6BRUBQem3RZ3xrUK3uJ+toD1w3SyCkP7XVYDe90E/exxb6xWEI07ATM7BU9m0NbiSwXTyQ2j7i4o6GLsl2WZUiqSKNC3Zc05L6kpXCTL0Rp3+EtYSSnL8ylJFfB+BHb6iMnsYkfjiDrvOm3aLipoJO0yfDA6PWK+xDgjEWskMCQXe4tJQdh6tPY8wDL0my3Z6L0O2g8asuUe7Ym4mpFFq8Ch08BC9Hgg5S0/r8/C7Gii9tZQoHmo3KNxkZzX1Z2QxZzVTTG/E03OFpcKlBnyb8BYUXPqR69BWUNxrL8qlDXiuoDqJ0DIqwLE/S/A/ALI34TiO5cqNMmrAgAA
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isothermal local temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC62SwU4DIRCGzzbpO5DxanfZZRtLU2zi2YNvYGpLd0kpswFctm/v0Kox6smUywzDz3zzE1br8WjZoH0w6BRUBQem3RZ3xrUK3uJ+toD1w3SyCkP7XVYDe90E/exxb6xWEI07ATM7BU9m0NbiSwXTyQ2j7i4o6GLsl2WZUiqSKNC3Zc05L6kpXCTL0Rp3+EtYSSnL8ylJFfB+BHb6iMnsYkfjiDrvOm3aLipoJO0yfDA6PWK+xDgjEWskMCQXe4tJQdh6tPY8wDL0my3Z6L0O2g8asuUe7Ym4mpFFq8Ch08BC9Hgg5S0/r8/C7Gii9tZQoHmo3KNxkZzX1Z2QxZzVTTG/E03OFpcKlBnyb8BYUXPqR69BWUNxrL8qlDXiuoDqJ0DIqwLE/S/A/ALI34TiO5cqNMmrAgAA
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>35</SUB_ID>
+        <TITLE>aeration/dissolution</TITLE>
+        <VARNAME>aeropt</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>3</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>constant gas content</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC7VTy27DIBA8N1L+AW2viY0xbuMoNFLPPfQPqjQhNgoBC6jt/H2XOKmqpqqqPnxgYTzs7IzEYtnvNWml88oaAVlCgUizthtlKgEvYTudwfJuPFr4tnpPY0CeV14+OrtVWgoIyhyAqI2AB9VKre1TBuPRFcHuxguoQ2jmadp1XdLliXVVyiilKTaFgTLvtTK7z4hZWZbp8S9SBdCmB3I41U5tQo3j5CyeaqmqOgjgJZ6ieKtkd2/jJUIJkggvgVh0sdW2E+DXzmp9HGDum9UabTROeulaCdEyakqC9rQAY40E4oOzO2Rd0+N3BqZ7FaTTCgvOgnCfCchvkgIHxR2fIcLekLi7hTQKNFYffizSWGUCRpvnE54lBYntJ3EhnA7IIPJtgVOY7Gtb7GxrsBONcfpmLGLpr7Pjs4/ZnZC/zo4XQ1Kx/ZBdwf4vO84vsyvYZXbxWWB9BZLSxuebAwAA
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>gas transport</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC51QQU7DMBA8U6l/sJYrTZw4RU1VU4kzB36ASrtNrLreyDZx+nvWLSAOnPBld8fjnRlvttPZihF9MOQ0VIUEgW5PB+M6DR/xuFjB9mk+24Sx+02rQbzvAr56OhqLGqJxFxDmoOHFjGgtvVUwn90J3u6Chj7GYV2WKaUiqYJ8V9ZSypKXwo2ynqxxp7+IVdu25fWWqRrkMIG4fNVkDrFnO6rOU4+m66OGpuUpi48G0zPlR0IKJommBUGc4mgpaQh7T9ZeDazDsNtzjMFjQD8i5MisiYLjWQ2OHIII0dOJWffyer6BxdlE9NZwYS8MT5UG9Vgs2Sh3zYqR+gfJ3RLKLDCQvfxbZCDjIn+tUg+qLZYir39QDXeNvCE3kfzJXD8B7MAgSOkBAAA=
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>gas transport and dynamics</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC51QQU7DMBA8U6l/sJYrTZw4RU1VU4kzB36ASrtNrLreyDZx+nvWLSAOnPBld8fjnRlvttPZihF9MOQ0VIUEgW5PB+M6DR/xuFjB9mk+24Sx+02rQbzvAr56OhqLGqJxFxDmoOHFjGgtvVUwn90J3u6Chj7GYV2WKaUiqYJ8V9ZSypKXwo2ynqxxp7+IVdu25fWWqRrkMIG4fNVkDrFnO6rOU4+m66OGpuUpi48G0zPlR0IKJommBUGc4mgpaQh7T9ZeDazDsNtzjMFjQD8i5MisiYLjWQ2OHIII0dOJWffyer6BxdlE9NZwYS8MT5UG9Vgs2Sh3zYqR+gfJ3RLKLDCQvfxbZCDjIn+tUg+qLZYir39QDXeNvCE3kfzJXD8B7MAgSOkBAAA=
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+        </ENUM_LIST>
+        <RECOMPILE>1</RECOMPILE>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>61</SUB_ID>
+        <TITLE>aeration condition</TITLE>
+        <VARNAME>aerinit</VARNAME>
+        <VISIBILITY>aeropt==3</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>2</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>at equilibrium</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC51RQW7DIBA8N1L+gLbXxMbYbuMoNFLPPfQHVRoTG4WABdQ4v+9iJ1EPVRWVyy7DsDMDm+1wUqQX1kmjOWQJBSL03tRSNxy+/GG5gu3LfLZxffOTxoB87px4t+YgleDgpT4DkTWHN9kLpcxHBvPZA8Hp2nFove/WaRpCSEKeGNukjFKa4lCYKOtBSX38jZhVVZWOp0jlQLsByPlSg6x9i3ZyFnetkE3rORQV7qJ4L0V4NfESoQRJpKiAGExxUCZwcHtrlBoNrF2322OMzgonbC8gRkZNQTCe4qCNFkCct+aIrEc6riuwPEkvrJJY0AvCQ4YmVkmJRscOEXZDsMufIY0CnVHnf4t0RmqPT1uUiyJLShLHL/In7Eo2IZPI3QKXx2R/xyqusaLUFKxkt2ARG1Xj12L9BhxP68xfAgAA
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>user-defined</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC9WSsW6DMBRF93zF0+vSDoAhEEGEE6lDp3ZrP8ABA07ARsYN5O9rSEqL2qFrPdjvXt9nycdO90NTw5nrTihJ0XcJApeZyoUsKb69Pjkx7nertDuXcBa8f1QDRQIE/HUAYYJg22VHsTKm3Xpe3/duv3aVLr2AEOLZtltkO9RCnn4L+kmSeNMu7lZgR9oyU0FO8QXC2I3IOBMCzze13liFYDSTXaF0Q7FhRovh3h9TZJ6s3FwrJ3Bj/wFB2DPV4cgz4yMUoq4pSiU5Qme0OnGKd2Qan4aTs65iWrMLxYWniqLjxoJwv4XtDXjGWoqHd2MW7lEJy7YRhuvZn1Qt7GKpL85RLcuEuUyP8eX2IjfVzfN+corGe4Zk5DNziq4qCua9v1GbqgAc4sbhglrw36ml44fcrT4AfN4LkfUCAAA=
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+      </IPARAMS_LIST>
+      <IVARS_LIST>
+       <IVAR>
+        <SUB_ID>73</SUB_ID>
+        <TITLE>total gas mass fraction at port 11</TITLE>
+        <NB_IN_GROUP>aeropt>1</NB_IN_GROUP>
+        <VARNAME>xg11</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>8</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>g/g</UNITS>
+        <EXPRESS2>@_3_1</EXPRESS2>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>74</SUB_ID>
+        <TITLE>local undissolved gas mass fraction</TITLE>
+        <NB_IN_GROUP>aeropt==3</NB_IN_GROUP>
+        <VARNAME>xuloc</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>8</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNPLOTTABLE>1</UNPLOTTABLE>
+        <UNITS>g/g</UNITS>
+        <EXPRESS2>@_4_1, @_0_1</EXPRESS2>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>82</SUB_ID>
+        <TITLE>undissolved gas mass fraction at port 11</TITLE>
+        <NB_IN_GROUP>aeropt>1</NB_IN_GROUP>
+        <VARNAME>xu11</VARNAME>
+        <VISIBILITY>(aeropt==3)&&(aerinit==2)</VISIBILITY>
+        <TYPE>8</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>g/g</UNITS>
+        <EXPRESS2>@_11_3</EXPRESS2>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>101</SUB_ID>
+        <TITLE>initial temperature</TITLE>
+        <VARNAME>Tinit</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>5</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNPLOTTABLE>1</UNPLOTTABLE>
+        <UNITS>degC</UNITS>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>0.00000000000000e+00</MAX_VALUE>
+        <DEF_VALUE>0</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+       </IVAR>
+      </IVARS_LIST>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>43</SUB_ID>
+         <TITLE>pressure signal at port 1</TITLE>
+         <VARNAME>p1</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>44</SUB_ID>
+         <TITLE>temperature signal at port 2</TITLE>
+         <VARNAME>t2</VARNAME>
+         <VISIBILITY>(thhuse!=2)&&(thhuse!=3)</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>45</SUB_ID>
+         <TITLE>total gas mass fraction signal at port 3</TITLE>
+         <VARNAME>xg3</VARNAME>
+         <VISIBILITY>aeropt>1</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>46</SUB_ID>
+         <TITLE>undissolved gas mass fraction signal at port 4</TITLE>
+         <VARNAME>xu4</VARNAME>
+         <VISIBILITY>(aeropt==3)&&(aerinit==2)</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>47</SUB_ID>
+         <TITLE>mass flow rate signal at port 5</TITLE>
+         <VARNAME>dm5</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>7</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <UNITS>null</UNITS>
+         <EXPRESS2>@_11_4</EXPRESS2>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>48</SUB_ID>
+         <TITLE>enthalpy flow rate signal at port 6</TITLE>
+         <VARNAME>dmh6</VARNAME>
+         <VISIBILITY>(thhuse==1)</VISIBILITY>
+         <TYPE>7</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <UNITS>null</UNITS>
+         <EXPRESS2>@_11_5</EXPRESS2>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>78</SUB_ID>
+         <TITLE>total gas mass flow rate signal at port 7</TITLE>
+         <VARNAME>dmxg7</VARNAME>
+         <VISIBILITY>aeropt>1</VISIBILITY>
+         <TYPE>8</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+         <EXPRESS2>@_11_4, @_11_5, @_11_8, @_11_3</EXPRESS2>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>79</SUB_ID>
+         <TITLE>undissolved gas mass flow rate signal at port 8</TITLE>
+         <VARNAME>dmxu8</VARNAME>
+         <VISIBILITY>aeropt==3</VISIBILITY>
+         <TYPE>8</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+         <EXPRESS2>@_11_4, @_11_5, @_11_8, @_11_3, @_7_1</EXPRESS2>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>53</SUB_ID>
+         <TITLE>volume signal at port 9</TITLE>
+         <VARNAME>vol9</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>7</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <UNITS>null</UNITS>
+         <EXPRESS2>@_11_6</EXPRESS2>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>54</SUB_ID>
+         <TITLE>derivative of volume signal at port 10</TITLE>
+         <VARNAME>dvol10</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>7</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <UNITS>null</UNITS>
+         <EXPRESS2>@_11_7</EXPRESS2>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>92</SUB_ID>
+         <TITLE>pressure at port 11</TITLE>
+         <VARNAME>p11</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>7</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <UNITS>barA</UNITS>
+         <EXPRESS2>@_1_1</EXPRESS2>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>95</SUB_ID>
+         <TITLE>temperature at port 11</TITLE>
+         <VARNAME>t11</VARNAME>
+         <VISIBILITY>(thhuse!=2)&&(thhuse!=3)</VISIBILITY>
+         <TYPE>7</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <UNITS>degC</UNITS>
+         <EXPRESS2>@_2_1</EXPRESS2>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>64</SUB_ID>
+         <TITLE>node index at port 11</TITLE>
+         <VARNAME>nodeid11</VARNAME>
+         <VISIBILITY>False</VISIBILITY>
+         <TYPE>8</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNPLOTTABLE>1</UNPLOTTABLE>
+         <UNITS>tfnode</UNITS>
+         <EXPRESS2>@_11_1, @_11_2, @_0_1, @_0_2, @_0_4</EXPRESS2>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>38</SUB_ID>
+         <TITLE>mass flow rate at port 11</TITLE>
+         <VARNAME>dm11</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>kg/s</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>39</SUB_ID>
+         <TITLE>enthalpy flow rate at port 11</TITLE>
+         <VARNAME>dmh11</VARNAME>
+         <VISIBILITY>(thhuse==1)</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>W</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>40</SUB_ID>
+         <TITLE>volume at port 11</TITLE>
+         <VARNAME>vol11</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>3</IO>
+         <UNITS>cm**3</UNITS>
+         <DEF_VALUE>0</DEF_VALUE>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>41</SUB_ID>
+         <TITLE>derivative of volume at port 11</TITLE>
+         <VARNAME>dvol11</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>3</IO>
+         <UNITS>L/min</UNITS>
+         <DEF_VALUE>0</DEF_VALUE>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>42</SUB_ID>
+         <TITLE>flow index at port 11</TITLE>
+         <VARNAME>flowid11</VARNAME>
+         <VISIBILITY>False</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>3</IO>
+         <UNPLOTTABLE>1</UNPLOTTABLE>
+         <UNITS>tfflow</UNITS>
+         <DEF_VALUE>-1.00000000000000e+00</DEF_VALUE>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACC+2bYY+bNhiAv9+vQFRaVykQv7YxuAtXbZWqfdikfuj29URzJKElEAF3SfvrZwzH2UmULQdIq5NIIXlt48s9PDavnbvZu906tR7jokzyLLTBRbYVZ/P8PsmWof3Xpw9OYL+7vZmVj0vrMYm3v+W70EYWsoBgi3LbEqdnZWivqmrzdjrdbrfulrh5sZxihNBUnNY2ebtLk+zrsYbAOZ/KWvv2xhKP2SaqVtZ9aP8J4OIJoStA3GVzz4UJmnAXO1QU16/c9VI0QT+9AvKLOCBx4PI5R47nEtEO6jZO2/b3ur/3THQD1A0meAJcHDB1Sd3Le/GWi+K6ntBJ+7O/21ZVRFm5yIt1aK+jqkh2PwtMgkF30MM3tpWID59//hLPKwhsa5GkaWi/WshHEzr5Jpon1TdJXCAvqyL/GotGSD6eCpz7qFxFRRGJhlpZvliUcSWuhHK2IxDG82gT2p8fqkor/ZIn4uKukyouunIZpYl4ER9C6+foZ3O2yX21Cm1cl03bC1XFu8pa5FnlLKJ1kopTXv9aJFH62m5Ky+R7XPe+2R2jKIk5oBMEVh+x73o6SNxxfEL0P+RI/zNGWXb7cTatEY5HU3I8QpOYSPPT2DRJQ5PvD3JqIs3d2DQZkTSDfTc9E2mux6YJIN8LnHtyMhNx/j06Tuwdx+lfcb4Ap+/VY53A/lgPjBzrq7FxBvJGRPA+Tn6dOhuawTl3dS5HOtmHCchEmsuRaTZqYnqwEIJrktTQZOfQbNw8XFbiq5svmDe5xHk4bwK5TpznD/WG5pGhfl0PvWCoA0Jy5jwc60YuiB7GHuu0sfNgsQ7sauf5Y91r5DxMknzz5YzTNNmUsTXfhbYnFjK2NRdni3lPvCtEmchsim/ypddO8Q+RvJ+xU1wb0+0UqwyZ3zFkwzLE6FIY+rxjGAzMEC6FIYfRGOJLYQj17XSM6RATkxEu5W86fyirO4C71SLNt+2Xn/oXoBaTG2cS0R9tAJ7svRfcLqXM8iz+kSiC+vXjdHkEJ7ork2UWpcd5ciZ3zngDtIlkptgTqG8C0H1WXLKiKisSuCAjotVhFx+05C6vo3pdEyiVz532RG7i3vEps/lJsQEj1ew2HEBtggxUG7Dm7xO8Vm4AX6sFpur9TLrxW9z5ArWWDCQ4gQsTPDgtOAo0wZtwCMGJiYIDaAq38J4ER55eSzXBO9KN4IA1wZWee4KnFya4f1LwgKp+N9EQejMD9Q60Cbol18odaOYHSFW7YyzNDgJVbKXPnsT9C/OanfTax6rXTTSE19xAr31tXm7JtV4zLR1ngep1x1h67TPVa6XPfsQpujCvvZNeMy3hZkPl2xQb6DXT0m2mZdueNpd7Wq7NtFSbaZk2GyrRpuTCvKYnvabPibWg3Eb1kr4nZXP3nMhJnoSpPNtoAJ6+sTzxSZ6YqjzbaACe3Nw90X/ZOVJ5NhHpv8fsgYlbou0fDHoKKtpGrKvrCQ4bI+Ks/gew25t/AICRhHtlNgAA
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>thf_modulated_mpt_source_1</ALIAS>
+     <COMP_NAME>thf_modulated_mpt_source</COMP_NAME>
+     <COMP_DISPLAYNAME>thf_modulated_mpt_source</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>thermal-hydraulic modulated mass flow rate source</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>tf.thf_modulated_mpt_source</COMP_LIBRARY_ID>
+     <COMP_POS>522 137</COMP_POS>
+     <COMP_DEPTH>206</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>xbm</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        #define icon_width 48
+        #define icon_height 49
+        static unsigned char icon_bits[] = {
+        0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,
+        0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,
+        0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,
+        0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,
+        0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,
+        0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0xff,0xff,0xff,0xff,0x00,
+        0xc0,0xff,0xff,0xff,0xff,0x03,0xe0,0x00,0x00,0x00,0x00,0x07,0x30,0x00,0x00,
+        0x00,0x00,0x0c,0x18,0x00,0x00,0x00,0x00,0x18,0x18,0x00,0x00,0x00,0x00,0x18,
+        0x0c,0x00,0x00,0x00,0x00,0x30,0x0c,0xf0,0x00,0x00,0x00,0x30,0x0c,0x08,0xc0,
+        0x00,0x01,0x30,0x8c,0x19,0x20,0x01,0x01,0x30,0x86,0xf1,0x20,0x01,0xff,0x60,
+        0x0c,0x18,0x20,0x01,0x01,0x30,0x0c,0x08,0xe0,0x0f,0x01,0x30,0x0c,0xf0,0x00,
+        0x00,0x00,0x30,0x0c,0x00,0x00,0x00,0x00,0x30,0x18,0x00,0x00,0x00,0x00,0x18,
+        0x18,0x00,0x00,0x00,0x00,0x18,0x30,0x00,0x00,0x00,0x00,0x18,0xe0,0x00,0x00,
+        0x00,0x00,0x0e,0xc0,0xff,0xff,0xff,0xff,0x07,0x00,0xff,0xff,0xff,0xff,0x01,
+        0x00,0x10,0x00,0x01,0x10,0x00,0x00,0x10,0x00,0x01,0x10,0x00,0x00,0x38,0x80,
+        0x03,0x38,0x00,0x00,0x38,0x80,0x03,0x38,0x00,0x00,0x54,0x40,0x05,0x54,0x00,
+        0x00,0x54,0x40,0x05,0x54,0x00,0x00,0x92,0x20,0x09,0x92,0x00,0x00,0x10,0x00,
+        0x01,0x10,0x00,0x00,0x10,0x00,0x01,0x10,0x00,0x00,0x10,0x00,0x01,0x10,0x00,
+        0x00,0x10,0x00,0x01,0x10,0x00,0x00,0x10,0x00,0x01,0x10,0x00,0x00,0x10,0x00,
+        0x01,0x10,0x00,0x00,0x10,0x00,0x01,0x10,0x00
+        };
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>3</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>36 1</PORT_POS>
+       <PORT_FACE>0</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>2</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>5</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>24 1</PORT_POS>
+       <PORT_FACE>0</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>2</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>4</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>12 1</PORT_POS>
+       <PORT_FACE>0</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>2</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>3</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>24 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>hflow</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>1</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>9</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>10</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>1476</CIRCUIT_SCOPE_ID>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>TFMPT0</SUB_NAME>
+      <SUB_DIR>$AME/libthh/submodels</SUB_DIR>
+      <SUB_ID_MAX>38</SUB_ID_MAX>
+      <SUB_LABEL>conversion of signals into a mass flow rate and an enthalpy flow rate</SUB_LABEL>
+      <SUB_UNIT>0</SUB_UNIT>
+      <R_STORES_NUMBER>3</R_STORES_NUMBER>
+      <I_STORES_NUMBER>1</I_STORES_NUMBER>
+      <DISCONTINUITY>1</DISCONTINUITY>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <IPARAMS_LIST>
+       <IPARAM>
+        <SUB_ID>7</SUB_ID>
+        <TITLE>index of thermal hydraulic fluid</TITLE>
+        <VARNAME>fi</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>0</MIN_VALUE>
+        <MAX_VALUE>100</MAX_VALUE>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>12</SUB_ID>
+        <TITLE>energy balance</TITLE>
+        <VARNAME>thhuse</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>5</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>full (thermal-hydraulics)</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC51QwW7CMAw9D4l/sLwrtCktiFZkSDvvsD+YGITWIiRVkjXl7+eUbdphp+Vi++XZz8+7/XjVMCjnyRqJRSYQlDnaE5lW4kc4L7e4f5rPdn5of9NWCO8Hr16dPZNWEgOZGwKdJL7QoLS2bwXOZw/A042X2IXQN3keY8ximVnX5ishRM5D8U5pRk3m8hexqOs6n36ZKlH0I8LtK0Y6hU5itU1Fp6jtAlc1V0l7IBWfbeoBAdUWqhrBsoeztlGiPzqr9STf+P5wZBO9U165QWEyzIoK2JyWaKxRCD44e2HWo5jeN7C8UlBOEwc+DMNjIbHcZGtes0i7MbL6QVK2xjwJ9Fbf/i3SWzKBD1uWi7LO1pDGL8qKs0rckbtIOjHHT9/TP7jnAQAA
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isentropic global temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC52RTU7DMBCF11TqHUbDtk2cOKCkqqnEmgU3QKV1E6uuHdkmTm/PuD/AAqGKbMYzeXnP32S5Gg8aBum8skZgkTEEaTZ2q0wr8CPs5jWunqaTpR/an7IS4X3t5auzO6WlwKDMEUFtBb6oQWpt3wqcTu6A3I0X2IXQL/I8xphFnlnX5iVjLCdTPEsWo1Zm/5uwaJomP70lqUDWjwjHS41qGzqBVZ2aTqq2C9Q11KXsQcn4bNM3wKCqoWoQLDHstI0C/cZZrU/xC9+vNwTRO+mlGyQmYEqUQHBaoLFGIvjg7J5U9+z0XAfzgwrSaUWFFkPjsRDIH7MHumaR7kaT8muSTjWd8hTRW338d0xvlQm0Ws5nFYdkP+PEyFJ3tr/Z+rLG8m+k8orEL0gV+0Y6J6YfSvUT30iMJVUCAAA=
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isothermal global temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC52RTU7DMBCF11TqHUbDtk2cOKCkqqnEmgU3QKV1E6uuHdkmTm/PuD/AAqGKbMYzeXnP32S5Gg8aBum8skZgkTEEaTZ2q0wr8CPs5jWunqaTpR/an7IS4X3t5auzO6WlwKDMEUFtBb6oQWpt3wqcTu6A3I0X2IXQL/I8xphFnlnX5iVjLCdTPEsWo1Zm/5uwaJomP70lqUDWjwjHS41qGzqBVZ2aTqq2C9Q11KXsQcn4bNM3wKCqoWoQLDHstI0C/cZZrU/xC9+vNwTRO+mlGyQmYEqUQHBaoLFGIvjg7J5U9+z0XAfzgwrSaUWFFkPjsRDIH7MHumaR7kaT8muSTjWd8hTRW338d0xvlQm0Ws5nFYdkP+PEyFJ3tr/Z+rLG8m+k8orEL0gV+0Y6J6YfSvUT30iMJVUCAAA=
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isentropic local temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC62SUU/DIBDHn12y70DO162lg+lohkt89sFvYOZKWzIGDWDpvr3XVY1Rn8x4ubs/f+7HEba74WRIr3zQzkooMgpE2YOrtG0kvMV6uYHdw3y2DX3z3bYC8roP6tm7WhslIWp7BqIrCU+6V8a4lwLmsxuC3W2Q0MbYlXmeUsoSy5xv8hWlNMemMFnKwWh7/MtYCCHyyy5aJdBuAHL+iElXsZXAN2PRKt20ESuB1cjutUqPbjxDKOEbwgUQhzPUxiUJ4eCdMRd8Gbr9AYfovArK9wrGgZGoCA5nJFhnFZAQvTui65Ze1qewPOmovNEY8GFQHgoJ7C5b4zUx4xiH1ZeCGWeQXxNQ/AQwcVUAu/8FWE+AzpnzvyGd0zbi12BswUS2JmP7BeOYcTopE2T8JBjfAdXVTT2pAgAA
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isothermal local temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC62SUU/DIBDHn12y70DO162lg+lohkt89sFvYOZKWzIGDWDpvr3XVY1Rn8x4ubs/f+7HEba74WRIr3zQzkooMgpE2YOrtG0kvMV6uYHdw3y2DX3z3bYC8roP6tm7WhslIWp7BqIrCU+6V8a4lwLmsxuC3W2Q0MbYlXmeUsoSy5xv8hWlNMemMFnKwWh7/MtYCCHyyy5aJdBuAHL+iElXsZXAN2PRKt20ESuB1cjutUqPbjxDKOEbwgUQhzPUxiUJ4eCdMRd8Gbr9AYfovArK9wrGgZGoCA5nJFhnFZAQvTui65Ze1qewPOmovNEY8GFQHgoJ7C5b4zUx4xiH1ZeCGWeQXxNQ/AQwcVUAu/8FWE+AzpnzvyGd0zbi12BswUS2JmP7BeOYcTopE2T8JBjfAdXVTT2pAgAA
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>26</SUB_ID>
+        <TITLE>aeration/dissolution</TITLE>
+        <VARNAME>aeropt</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>3</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>constant gas content</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>gas transport</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>gas transport and dynamics</ENUM_STRING>
+         </ENUM>
+        </ENUM_LIST>
+        <RECOMPILE>1</RECOMPILE>
+       </IPARAM>
+      </IPARAMS_LIST>
+      <PARAMS_GROUPS_LIST>
+       <PARAMS_GROUP>
+        <ORIG_TITLE>power, energy, activity</ORIG_TITLE>
+        <NAME>Emanagement</NAME>
+        <SUB_ID>38</SUB_ID>
+        <CIRCUIT_SCOPE_ID>74</CIRCUIT_SCOPE_ID>
+        <EDITABLE_TITLE>1</EDITABLE_TITLE>
+        <PARAM_GROUP_ELEMENT_LIST>
+         <PARAM_GROUP_ELEMENT>
+          <PARAM_GROUP_ELEMENT_VARNAME>energySdmsource</PARAM_GROUP_ELEMENT_VARNAME>
+          <PARAM_GROUP_ELEMENT_DISPLAY>2</PARAM_GROUP_ELEMENT_DISPLAY>
+         </PARAM_GROUP_ELEMENT>
+         <PARAM_GROUP_ELEMENT>
+          <PARAM_GROUP_ELEMENT_VARNAME>actSdmsource</PARAM_GROUP_ELEMENT_VARNAME>
+          <PARAM_GROUP_ELEMENT_DISPLAY>2</PARAM_GROUP_ELEMENT_DISPLAY>
+         </PARAM_GROUP_ELEMENT>
+         <PARAM_GROUP_ELEMENT>
+          <PARAM_GROUP_ELEMENT_VARNAME>powerSdmsource</PARAM_GROUP_ELEMENT_VARNAME>
+          <PARAM_GROUP_ELEMENT_DISPLAY>1</PARAM_GROUP_ELEMENT_DISPLAY>
+         </PARAM_GROUP_ELEMENT>
+        </PARAM_GROUP_ELEMENT_LIST>
+        <EDITABLE>0</EDITABLE>
+       </PARAMS_GROUP>
+      </PARAMS_GROUPS_LIST>
+      <IVARS_LIST>
+       <IVAR>
+        <SUB_ID>30</SUB_ID>
+        <TITLE>local pressure</TITLE>
+        <VARNAME>ploc</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>0</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNPLOTTABLE>1</UNPLOTTABLE>
+        <UNITS>PaA</UNITS>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>31</SUB_ID>
+        <TITLE>local temperature</TITLE>
+        <VARNAME>Tloc</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>0</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNPLOTTABLE>1</UNPLOTTABLE>
+        <UNITS>degC</UNITS>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>24</SUB_ID>
+        <TITLE>total gas mass fraction</TITLE>
+        <NB_IN_GROUP>aeropt>1</NB_IN_GROUP>
+        <VARNAME>xg</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>0</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNPLOTTABLE>1</UNPLOTTABLE>
+        <UNITS>g/g</UNITS>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>25</SUB_ID>
+        <TITLE>undissolved gas mass fraction</TITLE>
+        <NB_IN_GROUP>aeropt==3</NB_IN_GROUP>
+        <VARNAME>xu</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>0</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNPLOTTABLE>1</UNPLOTTABLE>
+        <UNITS>g/g</UNITS>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>27</SUB_ID>
+        <TITLE>volumetric flow rate at port 4</TITLE>
+        <VARNAME>q4</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>0</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>L/min</UNITS>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>35</SUB_ID>
+        <TITLE>power of thermodynamic source (dmsource)</TITLE>
+        <VARNAME>powerSdmsource</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>9</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>W</UNITS>
+        <PHYS_TYPE>4</PHYS_TYPE>
+        <PHYS_DOMAIN>7</PHYS_DOMAIN>
+        <ACT_SUFFIX>dmsource</ACT_SUFFIX>
+        <ACT_TYPE>2</ACT_TYPE>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>36</SUB_ID>
+        <TITLE>energy of thermodynamic source (dmsource)</TITLE>
+        <VARNAME>energySdmsource</VARNAME>
+        <VARNAME2>denergySdmsource</VARNAME2>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>1</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>J</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <PHYS_TYPE>4</PHYS_TYPE>
+        <PHYS_DOMAIN>7</PHYS_DOMAIN>
+        <ACT_SUFFIX>dmsource</ACT_SUFFIX>
+        <ACT_TYPE>3</ACT_TYPE>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>37</SUB_ID>
+        <TITLE>activity of thermodynamic source (dmsource)</TITLE>
+        <VARNAME>actSdmsource</VARNAME>
+        <VARNAME2>dactSdmsource</VARNAME2>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>1</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>J</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <PHYS_TYPE>4</PHYS_TYPE>
+        <PHYS_DOMAIN>7</PHYS_DOMAIN>
+        <ACT_SUFFIX>dmsource</ACT_SUFFIX>
+        <ACT_TYPE>1</ACT_TYPE>
+       </IVAR>
+      </IVARS_LIST>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>1</SUB_ID>
+         <TITLE>mass flow rate signal at port 1</TITLE>
+         <VARNAME>dm1</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>2</SUB_ID>
+         <TITLE>pressure signal at port 2</TITLE>
+         <VARNAME>p2</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>13</SUB_ID>
+         <TITLE>temperature signal at port 3</TITLE>
+         <VARNAME>t3</VARNAME>
+         <VISIBILITY>(thhuse!=2)&&(thhuse!=3)</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>3</SUB_ID>
+         <TITLE>mass flow rate at port 4</TITLE>
+         <VARNAME>dm4</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>kg/s</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>4</SUB_ID>
+         <TITLE>enthalpy flow rate at port 4</TITLE>
+         <VARNAME>dmh4</VARNAME>
+         <VISIBILITY>(thhuse==1)</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>W</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>16</SUB_ID>
+         <TITLE>volume at port 4</TITLE>
+         <VARNAME>vol4</VARNAME>
+         <VISIBILITY>False</VISIBILITY>
+         <TYPE>5</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNPLOTTABLE>1</UNPLOTTABLE>
+         <UNITS>cm**3</UNITS>
+         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+         <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+         <VALUE>0.00000000000000e+00</VALUE>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>18</SUB_ID>
+         <TITLE>derivative of volume at port 4</TITLE>
+         <VARNAME>dvol4</VARNAME>
+         <VISIBILITY>False</VISIBILITY>
+         <TYPE>5</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNPLOTTABLE>1</UNPLOTTABLE>
+         <UNITS>L/min</UNITS>
+         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+         <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+         <VALUE>0.00000000000000e+00</VALUE>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>19</SUB_ID>
+         <TITLE>flow index at port 4</TITLE>
+         <VARNAME>flowid4</VARNAME>
+         <VISIBILITY>False</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNPLOTTABLE>1</UNPLOTTABLE>
+         <UNITS>tfflow</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>5</SUB_ID>
+         <TITLE>pressure at port 4</TITLE>
+         <VARNAME>p4</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>barA</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>6</SUB_ID>
+         <TITLE>temperature at port 4</TITLE>
+         <VARNAME>t4</VARNAME>
+         <VISIBILITY>(thhuse!=2)&&(thhuse!=3)</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>degC</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>21</SUB_ID>
+         <TITLE>node index at port 4</TITLE>
+         <VARNAME>nodeid4</VARNAME>
+         <VISIBILITY>False</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>3</IO>
+         <UNPLOTTABLE>1</UNPLOTTABLE>
+         <UNITS>tfnode</UNITS>
+         <DEF_VALUE>-1.00000000000000e+00</DEF_VALUE>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACC92XTXObMBCG7/4VGvWQ9iAh8WWTAWfaQ889pGcPwQKUCMSAbOz8+q4Ibe3ETTPjtDOGGe+OXu0K69HrD+KbXaXQVrSd1HWCOWUYiTrTa1kXCf5++5Us8M1yFnfbAm2l6L/oXYIZYshfID/CCLrrLsGlMc214/R9T3uP6rZwXMaYA11jyfVOyfrhVCGPosgZZvFyhuCKCyTXCS5avWlWfBSHCSN2BuW6NiRPK6n2Cb763MpUXeEntZOPAvbAmh1Gpk3rLtdtleAqNa3cfWSUMUS4jUMYxjy00V3QgH3Cw3313b3IjAtLSqUS/IEN19OQ6CbNpNkPoEDrTKsfxEHRk0DWaVembZtC4ZGm87wTBgAedBPYusjSJsF3G2OO1Hst4UwqaUT7Sx9GSkJKsH+4zMm3Rnq5NuWoLavYsQj/LVFgaeP8OVFvikS//Q+iXgQsTxD1p0j09gVRoZRsOoEy+OaZY5RBuwtbb2HIIe2H9BLlb37sGKcNRxyDS+DI2ZtBMjAKdg4INqkpEWy38kLqIc+nQUlcn4YZCaiPGInonPjUHzK8QLH6qKBRLaEjyIYGK9lpNE5TjgLqwRLeWBza/HjeqYQ/T6XWtbgk/K7VRvyxUxz9qGWbzqz8VZkr3eNTJ+QC3i0P3o4uOIFucano+N/QeatOFnWq8B/cHcCfki1xaXCe9zibLEH3NYL2Iz4Q5N7ZCN0pIHyGhyOfKUBDAgQRnYvIm6zL+Gsu4+77uSyYnsui9zVZOBmTxfZ5cjn7ATtnbkazDgAA
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>constant_15</ALIAS>
+     <COMP_NAME>constant</COMP_NAME>
+     <COMP_DISPLAYNAME>constant</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>constant signal source</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>sig.constant</COMP_LIBRARY_ID>
+     <COMP_POS>569 72</COMP_POS>
+     <COMP_DEPTH>207</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>xbm</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        #define icon_width 40
+        #define icon_height 29
+        static unsigned char icon_bits[] = {
+        0x00,0xf8,0x03,0x00,0x00,0x00,0x07,0x1c,0x00,0x00,0x80,0x00,0x20,0x00,0x00,
+        0x60,0x00,0xc0,0x00,0x00,0x10,0x00,0x00,0x01,0x00,0x08,0x00,0x00,0x02,0x00,
+        0x08,0x00,0x00,0x02,0x00,0x04,0x00,0x00,0x04,0x00,0x02,0x00,0x00,0x08,0x00,
+        0x02,0x20,0x00,0x08,0x00,0x02,0x20,0x00,0x08,0x00,0x01,0x20,0x00,0x30,0x00,
+        0x01,0x20,0x02,0xd0,0x00,0x01,0x20,0x01,0x10,0x03,0x01,0xa0,0x00,0x10,0xfe,
+        0x01,0x60,0x00,0x10,0x03,0x01,0xa0,0x00,0xd0,0x00,0x01,0x20,0x01,0x30,0x00,
+        0x02,0x20,0x02,0x08,0x00,0x02,0x00,0x00,0x08,0x00,0x02,0x00,0x00,0x08,0x00,
+        0x04,0x00,0x00,0x04,0x00,0x08,0x00,0x00,0x02,0x00,0x08,0x00,0x00,0x02,0x00,
+        0x10,0x00,0x00,0x01,0x00,0x60,0x00,0xc0,0x00,0x00,0x80,0x00,0x20,0x00,0x00,
+        0x00,0x07,0x1c,0x00,0x00,0x00,0xf8,0x03,0x00,0x00
+        };
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>2</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>15 40</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>2</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>5</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>1481</CIRCUIT_SCOPE_ID>
+     <ELEMENT_PROPERTIES>
+      <ELEMENT_CONFIGURATION_NAME></ELEMENT_CONFIGURATION_NAME>
+     </ELEMENT_PROPERTIES>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>CONS00</SUB_NAME>
+      <SUB_DIR>$AME/libsig/submodels</SUB_DIR>
+      <SUB_ID_MAX>28</SUB_ID_MAX>
+      <SUB_LABEL>constant signal</SUB_LABEL>
+      <SUB_UNIT>1</SUB_UNIT>
+      <DISCONTINUITY>1</DISCONTINUITY>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <RPARAMS_LIST>
+       <RPARAM>
+        <SUB_ID>3</SUB_ID>
+        <TITLE>constant value</TITLE>
+        <VARNAME>k</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TUNABLE>True</TUNABLE>
+        <DEF_VALUE>-2*0.392</DEF_VALUE>
+        <VALUE>-2*0.392</VALUE>
+        <HISTORY_VARIABLE>k0GEN</HISTORY_VARIABLE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+      </RPARAMS_LIST>
+      <IVARS_LIST>
+       <IVAR>
+        <SUB_ID>28</SUB_ID>
+        <TITLE>constant value - Linked variable</TITLE>
+        <VARNAME>k0GEN</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>10</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>null</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+       </IVAR>
+      </IVARS_LIST>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>24</SUB_ID>
+         <TITLE>output</TITLE>
+         <VARNAME>out</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>constant_14</ALIAS>
+     <COMP_NAME>constant</COMP_NAME>
+     <COMP_DISPLAYNAME>constant</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>constant signal source</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>sig.constant</COMP_LIBRARY_ID>
+     <COMP_POS>531 72</COMP_POS>
+     <COMP_DEPTH>208</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>xbm</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        #define icon_width 40
+        #define icon_height 29
+        static unsigned char icon_bits[] = {
+        0x00,0xf8,0x03,0x00,0x00,0x00,0x07,0x1c,0x00,0x00,0x80,0x00,0x20,0x00,0x00,
+        0x60,0x00,0xc0,0x00,0x00,0x10,0x00,0x00,0x01,0x00,0x08,0x00,0x00,0x02,0x00,
+        0x08,0x00,0x00,0x02,0x00,0x04,0x00,0x00,0x04,0x00,0x02,0x00,0x00,0x08,0x00,
+        0x02,0x20,0x00,0x08,0x00,0x02,0x20,0x00,0x08,0x00,0x01,0x20,0x00,0x30,0x00,
+        0x01,0x20,0x02,0xd0,0x00,0x01,0x20,0x01,0x10,0x03,0x01,0xa0,0x00,0x10,0xfe,
+        0x01,0x60,0x00,0x10,0x03,0x01,0xa0,0x00,0xd0,0x00,0x01,0x20,0x01,0x30,0x00,
+        0x02,0x20,0x02,0x08,0x00,0x02,0x00,0x00,0x08,0x00,0x02,0x00,0x00,0x08,0x00,
+        0x04,0x00,0x00,0x04,0x00,0x08,0x00,0x00,0x02,0x00,0x08,0x00,0x00,0x02,0x00,
+        0x10,0x00,0x00,0x01,0x00,0x60,0x00,0xc0,0x00,0x00,0x80,0x00,0x20,0x00,0x00,
+        0x00,0x07,0x1c,0x00,0x00,0x00,0xf8,0x03,0x00,0x00
+        };
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>2</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>15 40</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>2</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>4</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>1479</CIRCUIT_SCOPE_ID>
+     <ELEMENT_PROPERTIES>
+      <ELEMENT_CONFIGURATION_NAME></ELEMENT_CONFIGURATION_NAME>
+     </ELEMENT_PROPERTIES>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>CONS00</SUB_NAME>
+      <SUB_DIR>$AME/libsig/submodels</SUB_DIR>
+      <SUB_ID_MAX>28</SUB_ID_MAX>
+      <SUB_LABEL>constant signal</SUB_LABEL>
+      <SUB_UNIT>1</SUB_UNIT>
+      <DISCONTINUITY>1</DISCONTINUITY>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <RPARAMS_LIST>
+       <RPARAM>
+        <SUB_ID>3</SUB_ID>
+        <TITLE>constant value</TITLE>
+        <VARNAME>k</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TUNABLE>True</TUNABLE>
+        <DEF_VALUE>1.00000000000000e+00</DEF_VALUE>
+        <VALUE>1.00000000000000e+00</VALUE>
+        <HISTORY_VARIABLE>k0GEN</HISTORY_VARIABLE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+      </RPARAMS_LIST>
+      <IVARS_LIST>
+       <IVAR>
+        <SUB_ID>28</SUB_ID>
+        <TITLE>constant value - Linked variable</TITLE>
+        <VARNAME>k0GEN</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>10</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>null</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+       </IVAR>
+      </IVARS_LIST>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>24</SUB_ID>
+         <TITLE>output</TITLE>
+         <VARNAME>out</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>constant_12</ALIAS>
+     <COMP_NAME>constant</COMP_NAME>
+     <COMP_DISPLAYNAME>constant</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>constant signal source</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>sig.constant</COMP_LIBRARY_ID>
+     <COMP_POS>496 71</COMP_POS>
+     <COMP_DEPTH>209</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>xbm</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        #define icon_width 40
+        #define icon_height 29
+        static unsigned char icon_bits[] = {
+        0x00,0xf8,0x03,0x00,0x00,0x00,0x07,0x1c,0x00,0x00,0x80,0x00,0x20,0x00,0x00,
+        0x60,0x00,0xc0,0x00,0x00,0x10,0x00,0x00,0x01,0x00,0x08,0x00,0x00,0x02,0x00,
+        0x08,0x00,0x00,0x02,0x00,0x04,0x00,0x00,0x04,0x00,0x02,0x00,0x00,0x08,0x00,
+        0x02,0x20,0x00,0x08,0x00,0x02,0x20,0x00,0x08,0x00,0x01,0x20,0x00,0x30,0x00,
+        0x01,0x20,0x02,0xd0,0x00,0x01,0x20,0x01,0x10,0x03,0x01,0xa0,0x00,0x10,0xfe,
+        0x01,0x60,0x00,0x10,0x03,0x01,0xa0,0x00,0xd0,0x00,0x01,0x20,0x01,0x30,0x00,
+        0x02,0x20,0x02,0x08,0x00,0x02,0x00,0x00,0x08,0x00,0x02,0x00,0x00,0x08,0x00,
+        0x04,0x00,0x00,0x04,0x00,0x08,0x00,0x00,0x02,0x00,0x08,0x00,0x00,0x02,0x00,
+        0x10,0x00,0x00,0x01,0x00,0x60,0x00,0xc0,0x00,0x00,0x80,0x00,0x20,0x00,0x00,
+        0x00,0x07,0x1c,0x00,0x00,0x00,0xf8,0x03,0x00,0x00
+        };
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>2</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>15 40</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>2</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>3</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>1477</CIRCUIT_SCOPE_ID>
+     <ELEMENT_PROPERTIES>
+      <ELEMENT_CONFIGURATION_NAME></ELEMENT_CONFIGURATION_NAME>
+     </ELEMENT_PROPERTIES>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>CONS00</SUB_NAME>
+      <SUB_DIR>$AME/libsig/submodels</SUB_DIR>
+      <SUB_ID_MAX>28</SUB_ID_MAX>
+      <SUB_LABEL>constant signal</SUB_LABEL>
+      <SUB_UNIT>1</SUB_UNIT>
+      <DISCONTINUITY>1</DISCONTINUITY>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <RPARAMS_LIST>
+       <RPARAM>
+        <SUB_ID>3</SUB_ID>
+        <TITLE>constant value</TITLE>
+        <VARNAME>k</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TUNABLE>True</TUNABLE>
+        <DEF_VALUE>2.00000000000000e+01</DEF_VALUE>
+        <VALUE>2.00000000000000e+01</VALUE>
+        <HISTORY_VARIABLE>k0GEN</HISTORY_VARIABLE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+      </RPARAMS_LIST>
+      <IVARS_LIST>
+       <IVAR>
+        <SUB_ID>28</SUB_ID>
+        <TITLE>constant value - Linked variable</TITLE>
+        <VARNAME>k0GEN</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>10</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>null</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+       </IVAR>
+      </IVARS_LIST>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>24</SUB_ID>
+         <TITLE>output</TITLE>
+         <VARNAME>out</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>thh2sig2_1</ALIAS>
+     <COMP_NAME>thh2sig2</COMP_NAME>
+     <COMP_DISPLAYNAME>thh2sig2</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>conversion between thermal hydraulic and signal variables (with volume)</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>tf.thh2sig2</COMP_LIBRARY_ID>
+     <COMP_POS>480 186</COMP_POS>
+     <COMP_DEPTH>210</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACC8WY32/bNhDH3/NXECwwr4At85doMbNSbAWGPaxAH7q9BopMy2xlyZAU/+hfv6NIqQma2I1ir36Q6SN1X37udNLJ83f7dY62uqpNWcQjGpAR0kVaLkyRxaN/Pv05iUbvbq7m9TbrV2EaMIzMIsZ/m63O8/KWYnSX1PpjVS5NrmPcmOKAEXgu6utkrWuzjvG2WAT5ug7MOslMoQNnx+gQY7LZY7Qzi2YFvjmzv9y5+9wUX2K8aprN9XS62+2CHQ/KKptSpdS0nYWl3kEJ+1vm5S7GdVqVeY7R1ujdH6WdRwSBYySU9/yUT0YImQInRittslUTY6H8Vq7rTZIC16bSta62Gt9coXnWhiCryvsNBAAsaL5JmhWqm6r8oieLpF4lVZUAH+5sa9PoKjfwBaAkIMSFsbz7rNOGRhhB+PIYv1m2H4yaKinqZVlB+NZJU5n9r5AggOkPj3++7YVK2K9pDjZVVsRZwTFpP/0yH3P2YNEEgqrTZBPju/umeWT9XBpIfsvgdvq0TEteLpe1BkoHCYwfKFw1Yy5WlKhApmFAx2SsAjYRYLbfKghzMia/vNkvfoNDYg/KHVIyCQMOK6ldNfGr/7Ie30twREUQjdmYKjgwEXDr5z0MFZjtPBdjr/4VT9tENXrfoGVZNJPafNU2GTbT34cbzmaccaEndIYmFFH0yEIlYrMgJERA6Ft3y2RtcgjI6PfKJPkI33ycT63YOVWt5EndT+fX5a2ugowe0d2fX1dyqxsd512fX5dSamWP4v57AVkW/gzZWQhR5vRElFfnF47sZcXZ8PRGw65mhRg/LpqdXbRlhVvU4BKSw2SBlRwXzc6fWKV+QlpB9P+PLyXE5vVEiO/PH2KhXnVDHhbisIU9UTsPYVNTpbl+ugnCKIXTIGUhjKBVC0M7OtGwELumgtP94/wHBGQnIGeXEYg6gZm6sICilxHoc0CpfKH/+TT71hKn93VzS+ntynbjrjG27eNz2q7nLcpCQ6/NIEHtFbCn3egAo6d62AOspeFz8uS2NlmR5C/XV7LTdyOrz9UzG4A3ChffTZkfsrJAG2iSG3i/UHAVQMOJrI8xjwKKFPcW1raifkYFqr19RNaEnqFRg2EoIx2NHw7DoczvvvXigCideRuVDslPtkxMHGeKhjORqGdyw4FM8FLg9m+9eCYSdjbhmdxky0TZcabZYKZIdEhuNIwo8gmxPhxP5BEj4mjcjIWJouMscjDLjHUsbjSMZeYTYX04FulLSkaOxc1Ylpk8zhIOZpF9+chXVI/0xSP72gl9pkJfObIvHHmibsRgFtGXjeirRjzHwsMHLD+q0vGKliVEoi0duORQyJwFfS/3NCYfjMn7+zeXl8Xk3EFx2WEK8kJMNhiT9XcMJi6LyaiDYqLDZNELMekrHmDfnl+XxVSOibKOksrTlHP7j+HN1X+dKviDRxUAAA==
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_GRAPHICS>
+       IDxQT1JUUz4KICA8UE9SVCB4PSIxMyIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSIyNSIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSIzNyIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSI0OSIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSI2MSIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSI3MyIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSI4NSIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSI5NyIgeT0iNDkiIHR5cGU9InNpZ25hbCIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB4PSIxMDkiIHk9IjQ5IiB0eXBlPSJzaWduYWwiIGZhY2U9IjEiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgeD0iMTIxIiB5PSI0OSIgdHlwZT0ic2lnbmFsIiBmYWNlPSIxIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIHg9IjY2IiB5PSIxIiB0eXBlPSJoZmxvdyIgZmFjZT0iMCI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL2hmbG93MXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogPC9QT1JUUz4K
+      </CIR_PORT_GRAPHICS>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>1</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>13 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>10</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>25 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>11</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>37 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>12</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>49 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>13</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>61 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>14</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>73 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>15</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>85 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>16</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>97 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>17</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>109 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>18</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>121 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>19</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>66 1</PORT_POS>
+       <PORT_FACE>0</PORT_FACE>
+       <PORT_TYPE>hflow</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>1</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>5</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>3</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>1484</CIRCUIT_SCOPE_ID>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>TFSG1</SUB_NAME>
+      <SUB_DIR>$AME/libthh/submodels</SUB_DIR>
+      <SUB_ID_MAX>101</SUB_ID_MAX>
+      <SUB_LABEL>conversion of signals to thermal hydraulic flow variables</SUB_LABEL>
+      <SUB_UNIT>1</SUB_UNIT>
+      <R_STORES_NUMBER>2</R_STORES_NUMBER>
+      <I_STORES_NUMBER>2</I_STORES_NUMBER>
+      <HAS_NO_CALC>1</HAS_NO_CALC>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <IPARAMS_LIST>
+       <IPARAM>
+        <SUB_ID>30</SUB_ID>
+        <TITLE>index of thermal hydraulic fluid</TITLE>
+        <VARNAME>fi</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>0</MIN_VALUE>
+        <MAX_VALUE>100</MAX_VALUE>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>34</SUB_ID>
+        <TITLE>energy balance</TITLE>
+        <VARNAME>thhuse</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>5</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>full (thermal-hydraulics)</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC51Qy07DMBA8U6n/sFqubeI8KjVVTSXOHPgDVNptYtW1I9vEyd+zTgFx4IQvuzse78x4fxhvGgZyXlkjscgEApmTPSvTSvwIl/UWD0/Lxd4P7W9aifB+9PTq7EVpkhiUmRDUWeKLGkhr+1bgcvEAvN14iV0I/S7PY4xZrDLr2rwUQuS8FO+U3aiVuf5FLJqmyedbpkoU/YgwfdWozqFjO1WZpo5U2wWJdcNTEh8UxWebHoEAJkHdIFhOcdE2SvQnZ7WeDex8fzxxjN6RJzcQpsisScDxtERjDSH44OyVWY9iPt/A+qYCOa24sBeGx0JiWWcbNspdvWWk/EG4qzaYJ4He6unfIr1VJvDXlsWqarINpPWrqk7d9o7cRdInc/0EUDDKq+kBAAA=
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isentropic global temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC51Ry27DIBA8N1L+AW2viY2x09pRaKSee+gfVKlDbBQCFlBj/30X56Eeqioql90dhp2dZbMdTor0wjppNIcsoUCErs1e6obDlz8sS9i+zGcb1zc/aQzI586Jd2sOUgkOXuoRiNxzeJO9UMp8ZDCfPRDsrh2H1vtunaYhhCTkibFNyiilKTaFM2U9KKmPvxGzqqrS6RapHGg3ABkvMci9b3GcnMWqFbJpPYeiwiqK91KEVxMfEUqQRIoKiEEXB2UCB1dbo9Q0wNp1uxptdFY4YXsB0TJqCoL2FAdttADivDVHZD3S6VyB5Ul6YZXEgLMgPGQcWJGscFDMihIRdkMwy58hjQKdUeO/RTojtcfVsmxRZMmKxPaL/Clm5Rk5i9wtcFkm+9sWvdqKUhdj5c1YxCbV+LUYvwFo8NNAXwIAAA==
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isothermal global temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC51Ry27DIBA8N1L+AW2viY2x09pRaKSee+gfVKlDbBQCFlBj/30X56Eeqioql90dhp2dZbMdTor0wjppNIcsoUCErs1e6obDlz8sS9i+zGcb1zc/aQzI586Jd2sOUgkOXuoRiNxzeJO9UMp8ZDCfPRDsrh2H1vtunaYhhCTkibFNyiilKTaFM2U9KKmPvxGzqqrS6RapHGg3ABkvMci9b3GcnMWqFbJpPYeiwiqK91KEVxMfEUqQRIoKiEEXB2UCB1dbo9Q0wNp1uxptdFY4YXsB0TJqCoL2FAdttADivDVHZD3S6VyB5Ul6YZXEgLMgPGQcWJGscFDMihIRdkMwy58hjQKdUeO/RTojtcfVsmxRZMmKxPaL/Clm5Rk5i9wtcFkm+9sWvdqKUhdj5c1YxCbV+LUYvwFo8NNAXwIAAA==
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isentropic local temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC62SwU4DIRCGzzbpO5DxanfZZRtLU2zi2YNvYGpLd0kpswFctm/v0Kox6smUywzDz3zzE1br8WjZoH0w6BRUBQem3RZ3xrUK3uJ+toD1w3SyCkP7XVYDe90E/exxb6xWEI07ATM7BU9m0NbiSwXTyQ2j7i4o6GLsl2WZUiqSKNC3Zc05L6kpXCTL0Rp3+EtYSSnL8ylJFfB+BHb6iMnsYkfjiDrvOm3aLipoJO0yfDA6PWK+xDgjEWskMCQXe4tJQdh6tPY8wDL0my3Z6L0O2g8asuUe7Ym4mpFFq8Ch08BC9Hgg5S0/r8/C7Gii9tZQoHmo3KNxkZzX1Z2QxZzVTTG/E03OFpcKlBnyb8BYUXPqR69BWUNxrL8qlDXiuoDqJ0DIqwLE/S/A/ALI34TiO5cqNMmrAgAA
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>isothermal local temperature initialization</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC62SwU4DIRCGzzbpO5DxanfZZRtLU2zi2YNvYGpLd0kpswFctm/v0Kox6smUywzDz3zzE1br8WjZoH0w6BRUBQem3RZ3xrUK3uJ+toD1w3SyCkP7XVYDe90E/exxb6xWEI07ATM7BU9m0NbiSwXTyQ2j7i4o6GLsl2WZUiqSKNC3Zc05L6kpXCTL0Rp3+EtYSSnL8ylJFfB+BHb6iMnsYkfjiDrvOm3aLipoJO0yfDA6PWK+xDgjEWskMCQXe4tJQdh6tPY8wDL0my3Z6L0O2g8asuUe7Ym4mpFFq8Ch08BC9Hgg5S0/r8/C7Gii9tZQoHmo3KNxkZzX1Z2QxZzVTTG/E03OFpcKlBnyb8BYUXPqR69BWUNxrL8qlDXiuoDqJ0DIqwLE/S/A/ALI34TiO5cqNMmrAgAA
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>35</SUB_ID>
+        <TITLE>aeration/dissolution</TITLE>
+        <VARNAME>aeropt</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>3</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>constant gas content</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC7VTy27DIBA8N1L+AW2viY0xbuMoNFLPPfQPqjQhNgoBC6jt/H2XOKmqpqqqPnxgYTzs7IzEYtnvNWml88oaAVlCgUizthtlKgEvYTudwfJuPFr4tnpPY0CeV14+OrtVWgoIyhyAqI2AB9VKre1TBuPRFcHuxguoQ2jmadp1XdLliXVVyiilKTaFgTLvtTK7z4hZWZbp8S9SBdCmB3I41U5tQo3j5CyeaqmqOgjgJZ6ieKtkd2/jJUIJkggvgVh0sdW2E+DXzmp9HGDum9UabTROeulaCdEyakqC9rQAY40E4oOzO2Rd0+N3BqZ7FaTTCgvOgnCfCchvkgIHxR2fIcLekLi7hTQKNFYffizSWGUCRpvnE54lBYntJ3EhnA7IIPJtgVOY7Gtb7GxrsBONcfpmLGLpr7Pjs4/ZnZC/zo4XQ1Kx/ZBdwf4vO84vsyvYZXbxWWB9BZLSxuebAwAA
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>gas transport</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC51QQU7DMBA8U6l/sJYrTZw4RU1VU4kzB36ASrtNrLreyDZx+nvWLSAOnPBld8fjnRlvttPZihF9MOQ0VIUEgW5PB+M6DR/xuFjB9mk+24Sx+02rQbzvAr56OhqLGqJxFxDmoOHFjGgtvVUwn90J3u6Chj7GYV2WKaUiqYJ8V9ZSypKXwo2ynqxxp7+IVdu25fWWqRrkMIG4fNVkDrFnO6rOU4+m66OGpuUpi48G0zPlR0IKJommBUGc4mgpaQh7T9ZeDazDsNtzjMFjQD8i5MisiYLjWQ2OHIII0dOJWffyer6BxdlE9NZwYS8MT5UG9Vgs2Sh3zYqR+gfJ3RLKLDCQvfxbZCDjIn+tUg+qLZYir39QDXeNvCE3kfzJXD8B7MAgSOkBAAA=
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>gas transport and dynamics</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC51QQU7DMBA8U6l/sJYrTZw4RU1VU4kzB36ASrtNrLreyDZx+nvWLSAOnPBld8fjnRlvttPZihF9MOQ0VIUEgW5PB+M6DR/xuFjB9mk+24Sx+02rQbzvAr56OhqLGqJxFxDmoOHFjGgtvVUwn90J3u6Chj7GYV2WKaUiqYJ8V9ZSypKXwo2ynqxxp7+IVdu25fWWqRrkMIG4fNVkDrFnO6rOU4+m66OGpuUpi48G0zPlR0IKJommBUGc4mgpaQh7T9ZeDazDsNtzjMFjQD8i5MisiYLjWQ2OHIII0dOJWffyer6BxdlE9NZwYS8MT5UG9Vgs2Sh3zYqR+gfJ3RLKLDCQvfxbZCDjIn+tUg+qLZYir39QDXeNvCE3kfzJXD8B7MAgSOkBAAA=
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+        </ENUM_LIST>
+        <RECOMPILE>1</RECOMPILE>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>61</SUB_ID>
+        <TITLE>aeration condition</TITLE>
+        <VARNAME>aerinit</VARNAME>
+        <VISIBILITY>aeropt==3</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>2</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>at equilibrium</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC51RQW7DIBA8N1L+gLbXxMbYbuMoNFLPPfQHVRoTG4WABdQ4v+9iJ1EPVRWVyy7DsDMDm+1wUqQX1kmjOWQJBSL03tRSNxy+/GG5gu3LfLZxffOTxoB87px4t+YgleDgpT4DkTWHN9kLpcxHBvPZA8Hp2nFove/WaRpCSEKeGNukjFKa4lCYKOtBSX38jZhVVZWOp0jlQLsByPlSg6x9i3ZyFnetkE3rORQV7qJ4L0V4NfESoQRJpKiAGExxUCZwcHtrlBoNrF2322OMzgonbC8gRkZNQTCe4qCNFkCct+aIrEc6riuwPEkvrJJY0AvCQ4YmVkmJRscOEXZDsMufIY0CnVHnf4t0RmqPT1uUiyJLShLHL/In7Eo2IZPI3QKXx2R/xyqusaLUFKxkt2ARG1Xj12L9BhxP68xfAgAA
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>user-defined</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACC9WSsW6DMBRF93zF0+vSDoAhEEGEE6lDp3ZrP8ABA07ARsYN5O9rSEqL2qFrPdjvXt9nycdO90NTw5nrTihJ0XcJApeZyoUsKb69Pjkx7nertDuXcBa8f1QDRQIE/HUAYYJg22VHsTKm3Xpe3/duv3aVLr2AEOLZtltkO9RCnn4L+kmSeNMu7lZgR9oyU0FO8QXC2I3IOBMCzze13liFYDSTXaF0Q7FhRovh3h9TZJ6s3FwrJ3Bj/wFB2DPV4cgz4yMUoq4pSiU5Qme0OnGKd2Qan4aTs65iWrMLxYWniqLjxoJwv4XtDXjGWoqHd2MW7lEJy7YRhuvZn1Qt7GKpL85RLcuEuUyP8eX2IjfVzfN+corGe4Zk5DNziq4qCua9v1GbqgAc4sbhglrw36ml44fcrT4AfN4LkfUCAAA=
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+      </IPARAMS_LIST>
+      <IVARS_LIST>
+       <IVAR>
+        <SUB_ID>73</SUB_ID>
+        <TITLE>total gas mass fraction at port 11</TITLE>
+        <NB_IN_GROUP>aeropt>1</NB_IN_GROUP>
+        <VARNAME>xg11</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>8</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>g/g</UNITS>
+        <EXPRESS2>@_3_1</EXPRESS2>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>74</SUB_ID>
+        <TITLE>local undissolved gas mass fraction</TITLE>
+        <NB_IN_GROUP>aeropt==3</NB_IN_GROUP>
+        <VARNAME>xuloc</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>8</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNPLOTTABLE>1</UNPLOTTABLE>
+        <UNITS>g/g</UNITS>
+        <EXPRESS2>@_4_1, @_0_1</EXPRESS2>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>82</SUB_ID>
+        <TITLE>undissolved gas mass fraction at port 11</TITLE>
+        <NB_IN_GROUP>aeropt>1</NB_IN_GROUP>
+        <VARNAME>xu11</VARNAME>
+        <VISIBILITY>(aeropt==3)&&(aerinit==2)</VISIBILITY>
+        <TYPE>8</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>g/g</UNITS>
+        <EXPRESS2>@_11_3</EXPRESS2>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>101</SUB_ID>
+        <TITLE>initial temperature</TITLE>
+        <VARNAME>Tinit</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>5</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNPLOTTABLE>1</UNPLOTTABLE>
+        <UNITS>degC</UNITS>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>0.00000000000000e+00</MAX_VALUE>
+        <DEF_VALUE>0</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+       </IVAR>
+      </IVARS_LIST>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>43</SUB_ID>
+         <TITLE>pressure signal at port 1</TITLE>
+         <VARNAME>p1</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>44</SUB_ID>
+         <TITLE>temperature signal at port 2</TITLE>
+         <VARNAME>t2</VARNAME>
+         <VISIBILITY>(thhuse!=2)&&(thhuse!=3)</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>45</SUB_ID>
+         <TITLE>total gas mass fraction signal at port 3</TITLE>
+         <VARNAME>xg3</VARNAME>
+         <VISIBILITY>aeropt>1</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>46</SUB_ID>
+         <TITLE>undissolved gas mass fraction signal at port 4</TITLE>
+         <VARNAME>xu4</VARNAME>
+         <VISIBILITY>(aeropt==3)&&(aerinit==2)</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>47</SUB_ID>
+         <TITLE>mass flow rate signal at port 5</TITLE>
+         <VARNAME>dm5</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>7</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <UNITS>null</UNITS>
+         <EXPRESS2>@_11_4</EXPRESS2>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>48</SUB_ID>
+         <TITLE>enthalpy flow rate signal at port 6</TITLE>
+         <VARNAME>dmh6</VARNAME>
+         <VISIBILITY>(thhuse==1)</VISIBILITY>
+         <TYPE>7</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <UNITS>null</UNITS>
+         <EXPRESS2>@_11_5</EXPRESS2>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>78</SUB_ID>
+         <TITLE>total gas mass flow rate signal at port 7</TITLE>
+         <VARNAME>dmxg7</VARNAME>
+         <VISIBILITY>aeropt>1</VISIBILITY>
+         <TYPE>8</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+         <EXPRESS2>@_11_4, @_11_5, @_11_8, @_11_3</EXPRESS2>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>79</SUB_ID>
+         <TITLE>undissolved gas mass flow rate signal at port 8</TITLE>
+         <VARNAME>dmxu8</VARNAME>
+         <VISIBILITY>aeropt==3</VISIBILITY>
+         <TYPE>8</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+         <EXPRESS2>@_11_4, @_11_5, @_11_8, @_11_3, @_7_1</EXPRESS2>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>53</SUB_ID>
+         <TITLE>volume signal at port 9</TITLE>
+         <VARNAME>vol9</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>7</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <UNITS>null</UNITS>
+         <EXPRESS2>@_11_6</EXPRESS2>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>54</SUB_ID>
+         <TITLE>derivative of volume signal at port 10</TITLE>
+         <VARNAME>dvol10</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>7</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <UNITS>null</UNITS>
+         <EXPRESS2>@_11_7</EXPRESS2>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>92</SUB_ID>
+         <TITLE>pressure at port 11</TITLE>
+         <VARNAME>p11</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>7</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <UNITS>barA</UNITS>
+         <EXPRESS2>@_1_1</EXPRESS2>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>95</SUB_ID>
+         <TITLE>temperature at port 11</TITLE>
+         <VARNAME>t11</VARNAME>
+         <VISIBILITY>(thhuse!=2)&&(thhuse!=3)</VISIBILITY>
+         <TYPE>7</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <UNITS>degC</UNITS>
+         <EXPRESS2>@_2_1</EXPRESS2>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>64</SUB_ID>
+         <TITLE>node index at port 11</TITLE>
+         <VARNAME>nodeid11</VARNAME>
+         <VISIBILITY>False</VISIBILITY>
+         <TYPE>8</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNPLOTTABLE>1</UNPLOTTABLE>
+         <UNITS>tfnode</UNITS>
+         <EXPRESS2>@_11_1, @_11_2, @_0_1, @_0_2, @_0_4</EXPRESS2>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>38</SUB_ID>
+         <TITLE>mass flow rate at port 11</TITLE>
+         <VARNAME>dm11</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>kg/s</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>39</SUB_ID>
+         <TITLE>enthalpy flow rate at port 11</TITLE>
+         <VARNAME>dmh11</VARNAME>
+         <VISIBILITY>(thhuse==1)</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>W</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>40</SUB_ID>
+         <TITLE>volume at port 11</TITLE>
+         <VARNAME>vol11</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>3</IO>
+         <UNITS>cm**3</UNITS>
+         <DEF_VALUE>0</DEF_VALUE>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>41</SUB_ID>
+         <TITLE>derivative of volume at port 11</TITLE>
+         <VARNAME>dvol11</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>3</IO>
+         <UNITS>L/min</UNITS>
+         <DEF_VALUE>0</DEF_VALUE>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>42</SUB_ID>
+         <TITLE>flow index at port 11</TITLE>
+         <VARNAME>flowid11</VARNAME>
+         <VISIBILITY>False</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>3</IO>
+         <UNPLOTTABLE>1</UNPLOTTABLE>
+         <UNITS>tfflow</UNITS>
+         <DEF_VALUE>-1.00000000000000e+00</DEF_VALUE>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACC+2bYY+bNhiAv9+vQFRaVykQv7YxuAtXbZWqfdikfuj29URzJKElEAF3SfvrZwzH2UmULQdIq5NIIXlt48s9PDavnbvZu906tR7jokzyLLTBRbYVZ/P8PsmWof3Xpw9OYL+7vZmVj0vrMYm3v+W70EYWsoBgi3LbEqdnZWivqmrzdjrdbrfulrh5sZxihNBUnNY2ebtLk+zrsYbAOZ/KWvv2xhKP2SaqVtZ9aP8J4OIJoStA3GVzz4UJmnAXO1QU16/c9VI0QT+9AvKLOCBx4PI5R47nEtEO6jZO2/b3ur/3THQD1A0meAJcHDB1Sd3Le/GWi+K6ntBJ+7O/21ZVRFm5yIt1aK+jqkh2PwtMgkF30MM3tpWID59//hLPKwhsa5GkaWi/WshHEzr5Jpon1TdJXCAvqyL/GotGSD6eCpz7qFxFRRGJhlpZvliUcSWuhHK2IxDG82gT2p8fqkor/ZIn4uKukyouunIZpYl4ER9C6+foZ3O2yX21Cm1cl03bC1XFu8pa5FnlLKJ1kopTXv9aJFH62m5Ky+R7XPe+2R2jKIk5oBMEVh+x73o6SNxxfEL0P+RI/zNGWXb7cTatEY5HU3I8QpOYSPPT2DRJQ5PvD3JqIs3d2DQZkTSDfTc9E2mux6YJIN8LnHtyMhNx/j06Tuwdx+lfcb4Ap+/VY53A/lgPjBzrq7FxBvJGRPA+Tn6dOhuawTl3dS5HOtmHCchEmsuRaTZqYnqwEIJrktTQZOfQbNw8XFbiq5svmDe5xHk4bwK5TpznD/WG5pGhfl0PvWCoA0Jy5jwc60YuiB7GHuu0sfNgsQ7sauf5Y91r5DxMknzz5YzTNNmUsTXfhbYnFjK2NRdni3lPvCtEmchsim/ypddO8Q+RvJ+xU1wb0+0UqwyZ3zFkwzLE6FIY+rxjGAzMEC6FIYfRGOJLYQj17XSM6RATkxEu5W86fyirO4C71SLNt+2Xn/oXoBaTG2cS0R9tAJ7svRfcLqXM8iz+kSiC+vXjdHkEJ7ork2UWpcd5ciZ3zngDtIlkptgTqG8C0H1WXLKiKisSuCAjotVhFx+05C6vo3pdEyiVz532RG7i3vEps/lJsQEj1ew2HEBtggxUG7Dm7xO8Vm4AX6sFpur9TLrxW9z5ArWWDCQ4gQsTPDgtOAo0wZtwCMGJiYIDaAq38J4ER55eSzXBO9KN4IA1wZWee4KnFya4f1LwgKp+N9EQejMD9Q60Cbol18odaOYHSFW7YyzNDgJVbKXPnsT9C/OanfTax6rXTTSE19xAr31tXm7JtV4zLR1ngep1x1h67TPVa6XPfsQpujCvvZNeMy3hZkPl2xQb6DXT0m2mZdueNpd7Wq7NtFSbaZk2GyrRpuTCvKYnvabPibWg3Eb1kr4nZXP3nMhJnoSpPNtoAJ6+sTzxSZ6YqjzbaACe3Nw90X/ZOVJ5NhHpv8fsgYlbou0fDHoKKtpGrKvrCQ4bI+Ks/gew25t/AICRhHtlNgAA
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+   </COMPS_LIST>
+   <LINES_LIST>
+    <LINE>
+     <ALIAS>control_17</ALIAS>
+     <LINE_TYPE>2</LINE_TYPE>
+     <CIRCUIT_SCOPE_ID>1472</CIRCUIT_SCOPE_ID>
+     <LINE_POINTS>
+      272,113 272,125 253,125 253,137
+     </LINE_POINTS>
+     <LINE_START_TYPE>0</LINE_START_TYPE>
+     <LINE_END_TYPE>0</LINE_END_TYPE>
+     <LINE_START_ENTITY>1</LINE_START_ENTITY>
+     <LINE_START_PORT>0</LINE_START_PORT>
+     <LINE_END_ENTITY>0</LINE_END_ENTITY>
+     <LINE_END_PORT>0</LINE_END_PORT>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>DIRECT</SUB_NAME>
+      <SUB_DIR> </SUB_DIR>
+      <SUB_ID_MAX>2</SUB_ID_MAX>
+      <SUB_LABEL>Direct connection</SUB_LABEL>
+      <SUB_UNIT>0</SUB_UNIT>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>1</SUB_ID>
+         <TITLE>mass flow rate signal at port 1</TITLE>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>2</SUB_ID>
+         <TITLE>user defined duty cycle output</TITLE>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>1</CIR_PORTS_OVER_FRAMEWORK>
+     </SUBMODEL>
+    </LINE>
+    <LINE>
+     <ALIAS>control_44</ALIAS>
+     <LINE_TYPE>2</LINE_TYPE>
+     <CIRCUIT_SCOPE_ID>1473</CIRCUIT_SCOPE_ID>
+     <LINE_POINTS>
+      209,113 209,125 229,125 229,137
+     </LINE_POINTS>
+     <LINE_START_TYPE>0</LINE_START_TYPE>
+     <LINE_END_TYPE>0</LINE_END_TYPE>
+     <LINE_START_ENTITY>2</LINE_START_ENTITY>
+     <LINE_START_PORT>0</LINE_START_PORT>
+     <LINE_END_ENTITY>0</LINE_END_ENTITY>
+     <LINE_END_PORT>2</LINE_END_PORT>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>DIRECT</SUB_NAME>
+      <SUB_DIR> </SUB_DIR>
+      <SUB_ID_MAX>2</SUB_ID_MAX>
+      <SUB_LABEL>Direct connection</SUB_LABEL>
+      <SUB_UNIT>0</SUB_UNIT>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>1</SUB_ID>
+         <TITLE>temperature signal at port 3</TITLE>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>2</SUB_ID>
+         <TITLE>output</TITLE>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>1</CIR_PORTS_OVER_FRAMEWORK>
+     </SUBMODEL>
+    </LINE>
+    <LINE>
+     <ALIAS>control_45</ALIAS>
+     <LINE_TYPE>2</LINE_TYPE>
+     <CIRCUIT_SCOPE_ID>1475</CIRCUIT_SCOPE_ID>
+     <LINE_POINTS>
+      241,112 241,137
+     </LINE_POINTS>
+     <LINE_START_TYPE>0</LINE_START_TYPE>
+     <LINE_END_TYPE>0</LINE_END_TYPE>
+     <LINE_START_ENTITY>3</LINE_START_ENTITY>
+     <LINE_START_PORT>0</LINE_START_PORT>
+     <LINE_END_ENTITY>0</LINE_END_ENTITY>
+     <LINE_END_PORT>1</LINE_END_PORT>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>DIRECT</SUB_NAME>
+      <SUB_DIR> </SUB_DIR>
+      <SUB_ID_MAX>2</SUB_ID_MAX>
+      <SUB_LABEL>Direct connection</SUB_LABEL>
+      <SUB_UNIT>0</SUB_UNIT>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>1</SUB_ID>
+         <TITLE>pressure signal at port 2</TITLE>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>2</SUB_ID>
+         <TITLE>output</TITLE>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>1</CIR_PORTS_OVER_FRAMEWORK>
+     </SUBMODEL>
+    </LINE>
+    <LINE>
+     <ALIAS>control_2</ALIAS>
+     <LINE_TYPE>2</LINE_TYPE>
+     <CIRCUIT_SCOPE_ID>1478</CIRCUIT_SCOPE_ID>
+     <LINE_POINTS>
+      510,110 510,124 533,124 533,137
+     </LINE_POINTS>
+     <LINE_START_TYPE>0</LINE_START_TYPE>
+     <LINE_END_TYPE>0</LINE_END_TYPE>
+     <LINE_START_ENTITY>8</LINE_START_ENTITY>
+     <LINE_START_PORT>0</LINE_START_PORT>
+     <LINE_END_ENTITY>5</LINE_END_ENTITY>
+     <LINE_END_PORT>2</LINE_END_PORT>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>DIRECT</SUB_NAME>
+      <SUB_DIR> </SUB_DIR>
+      <SUB_ID_MAX>2</SUB_ID_MAX>
+      <SUB_LABEL>Direct connection</SUB_LABEL>
+      <SUB_UNIT>0</SUB_UNIT>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>1</SUB_ID>
+         <TITLE>temperature signal at port 3</TITLE>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>2</SUB_ID>
+         <TITLE>output</TITLE>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>1</CIR_PORTS_OVER_FRAMEWORK>
+     </SUBMODEL>
+    </LINE>
+    <LINE>
+     <ALIAS>control_3</ALIAS>
+     <LINE_TYPE>2</LINE_TYPE>
+     <CIRCUIT_SCOPE_ID>1480</CIRCUIT_SCOPE_ID>
+     <LINE_POINTS>
+      545,111 545,137
+     </LINE_POINTS>
+     <LINE_START_TYPE>0</LINE_START_TYPE>
+     <LINE_END_TYPE>0</LINE_END_TYPE>
+     <LINE_START_ENTITY>7</LINE_START_ENTITY>
+     <LINE_START_PORT>0</LINE_START_PORT>
+     <LINE_END_ENTITY>5</LINE_END_ENTITY>
+     <LINE_END_PORT>1</LINE_END_PORT>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>DIRECT</SUB_NAME>
+      <SUB_DIR> </SUB_DIR>
+      <SUB_ID_MAX>2</SUB_ID_MAX>
+      <SUB_LABEL>Direct connection</SUB_LABEL>
+      <SUB_UNIT>0</SUB_UNIT>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>1</SUB_ID>
+         <TITLE>pressure signal at port 2</TITLE>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>2</SUB_ID>
+         <TITLE>output</TITLE>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>1</CIR_PORTS_OVER_FRAMEWORK>
+     </SUBMODEL>
+    </LINE>
+    <LINE>
+     <ALIAS>control_47</ALIAS>
+     <LINE_TYPE>2</LINE_TYPE>
+     <CIRCUIT_SCOPE_ID>1483</CIRCUIT_SCOPE_ID>
+     <LINE_POINTS>
+      583,111 583,124 557,124 557,137
+     </LINE_POINTS>
+     <LINE_START_TYPE>0</LINE_START_TYPE>
+     <LINE_END_TYPE>0</LINE_END_TYPE>
+     <LINE_START_ENTITY>6</LINE_START_ENTITY>
+     <LINE_START_PORT>0</LINE_START_PORT>
+     <LINE_END_ENTITY>5</LINE_END_ENTITY>
+     <LINE_END_PORT>0</LINE_END_PORT>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>DIRECT</SUB_NAME>
+      <SUB_DIR> </SUB_DIR>
+      <SUB_ID_MAX>2</SUB_ID_MAX>
+      <SUB_LABEL>Direct connection</SUB_LABEL>
+      <SUB_UNIT>0</SUB_UNIT>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <EVARS_LIST>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>1</SUB_ID>
+         <TITLE>mass flow rate signal at port 1</TITLE>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>2</SUB_ID>
+         <TITLE>output</TITLE>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>1</CIR_PORTS_OVER_FRAMEWORK>
+     </SUBMODEL>
+    </LINE>
+   </LINES_LIST>
+   <ANIMATION_PROPERTIES>
+    <SPEED>1.00000000000000e+00</SPEED>
+    <LOOP>0</LOOP>
+   </ANIMATION_PROPERTIES>
+  </CIRCUIT>
+ </SUPERCOMPONENT>
+</SUB>
