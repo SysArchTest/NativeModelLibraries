@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE SUB>
-<SUB DOC_VERSION="2" AME_VERSION="2020.1. - ">
+<SUB DOC_VERSION="2" AME_VERSION="2020.1.0 - DEV - 2019">
 
  <SUPERCOMPONENT>
   <SC_SUB_NAME>FUEL_SYSTEM_AIRCRAFT</SC_SUB_NAME>
@@ -316,8 +316,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -2976,10 +2977,6 @@
          <CONNECT_ENTITY_NUM>28</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -2995,10 +2992,6 @@
         <CONNECT>
          <CONNECT_ENTITY_NUM>242</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
-        </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
         </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
@@ -3016,10 +3009,6 @@
        <CONNECT_LIST>
         <CONNECT>
          <CONNECT_ENTITY_NUM>41</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
         </CONNECT>
        </CONNECT_LIST>
@@ -3040,10 +3029,6 @@
          <CONNECT_ENTITY_NUM>52</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -3061,10 +3046,6 @@
         <CONNECT>
          <CONNECT_ENTITY_NUM>54</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
-        </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
         </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
@@ -3084,10 +3065,6 @@
          <CONNECT_ENTITY_NUM>59</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -3105,10 +3082,6 @@
         <CONNECT>
          <CONNECT_ENTITY_NUM>63</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
-        </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
         </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
@@ -3128,10 +3101,6 @@
          <CONNECT_ENTITY_NUM>64</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -3148,10 +3117,6 @@
        <CONNECT_LIST>
         <CONNECT>
          <CONNECT_ENTITY_NUM>65</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
         </CONNECT>
        </CONNECT_LIST>
@@ -3172,10 +3137,6 @@
          <CONNECT_ENTITY_NUM>88</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -3193,10 +3154,6 @@
         <CONNECT>
          <CONNECT_ENTITY_NUM>95</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
-        </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
         </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
@@ -3216,10 +3173,6 @@
          <CONNECT_ENTITY_NUM>102</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -3237,10 +3190,6 @@
         <CONNECT>
          <CONNECT_ENTITY_NUM>108</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
-        </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
         </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
@@ -3260,10 +3209,6 @@
          <CONNECT_ENTITY_NUM>109</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -3281,10 +3226,6 @@
         <CONNECT>
          <CONNECT_ENTITY_NUM>110</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
-        </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
         </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
@@ -3304,10 +3245,6 @@
          <CONNECT_ENTITY_NUM>113</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -3326,10 +3263,6 @@
          <CONNECT_ENTITY_NUM>130</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -3346,10 +3279,6 @@
        <CONNECT_LIST>
         <CONNECT>
          <CONNECT_ENTITY_NUM>131</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
         </CONNECT>
        </CONNECT_LIST>
@@ -3370,10 +3299,6 @@
          <CONNECT_ENTITY_NUM>135</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -3391,10 +3316,6 @@
         <CONNECT>
          <CONNECT_ENTITY_NUM>148</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
-        </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
         </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
@@ -3414,10 +3335,6 @@
          <CONNECT_ENTITY_NUM>149</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -3436,10 +3353,6 @@
          <CONNECT_ENTITY_NUM>162</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -3456,10 +3369,6 @@
        <CONNECT_LIST>
         <CONNECT>
          <CONNECT_ENTITY_NUM>193</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
         </CONNECT>
        </CONNECT_LIST>
@@ -3480,10 +3389,6 @@
          <CONNECT_ENTITY_NUM>197</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -3501,10 +3406,6 @@
         <CONNECT>
          <CONNECT_ENTITY_NUM>211</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
-        </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
         </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
@@ -3524,10 +3425,6 @@
          <CONNECT_ENTITY_NUM>218</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -3546,10 +3443,6 @@
          <CONNECT_ENTITY_NUM>236</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
       <COMP_PORT>
@@ -3564,10 +3457,6 @@
        <PORT_TAG>AC1</PORT_TAG>
        <PORT_CONNECT>4</PORT_CONNECT>
        <CONNECT_LIST>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
         <CONNECT>
          <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
@@ -3589,10 +3478,6 @@
          <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
          <CONNECT_ENTITY_PORT>-1</CONNECT_ENTITY_PORT>
         </CONNECT>
-        <CONNECT>
-         <CONNECT_ENTITY_NUM>243</CONNECT_ENTITY_NUM>
-         <CONNECT_ENTITY_PORT>4</CONNECT_ENTITY_PORT>
-        </CONNECT>
        </CONNECT_LIST>
       </COMP_PORT>
      </COMP_PORTS_LIST>
@@ -3603,7 +3488,7 @@
       <SUB_TYPE>0</SUB_TYPE>
       <SUB_NAME>SIGTRANS0</SUB_NAME>
       <SUB_DIR>$AME/libsig/submodels</SUB_DIR>
-      <SUB_ID_MAX>23</SUB_ID_MAX>
+      <SUB_ID_MAX>30</SUB_ID_MAX>
       <SUB_LABEL>transmitter</SUB_LABEL>
       <SUB_UNIT>0</SUB_UNIT>
       <OUTPUT_TYPE>1</OUTPUT_TYPE>
@@ -4046,6 +3931,738 @@
          <UNITS>null</UNITS>
         </EVAR>
        </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout1</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout2</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout3</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout4</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout5</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout6</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout7</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout8</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout9</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout10</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout11</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout12</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout13</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout14</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout15</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout16</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout17</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout18</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout19</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout20</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout21</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout22</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout23</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout24</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout25</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <TITLE>transmitter output</TITLE>
+         <VARNAME>transout26</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <TITLE_LIST>
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+          transmitter output
+         </TITLE_LIST>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_IS_VIRTUAL>1</PORT_IS_VIRTUAL>
+        <USE_REQUIRED>0</USE_REQUIRED>
+       </PORT>
       </EVARS_LIST>
       <ICON_MAP>
        <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
@@ -4149,7 +4766,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -4265,7 +4882,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -4695,8 +5312,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -5273,7 +5891,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -5469,7 +6087,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -6389,8 +7007,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -6909,8 +7528,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -7721,7 +8341,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -8332,7 +8952,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -9006,8 +9626,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -9016,8 +9637,9 @@
         <TITLE>gas type index</TITLE>
         <VARNAME>gi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFG</DEF_VALUE>
-        <VALUE>IndexFG__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFG</VALUE>
         <MIN_VALUE>1</MIN_VALUE>
         <MAX_VALUE>99</MAX_VALUE>
        </IPARAM>
@@ -9155,8 +9777,9 @@
         <TITLE>information data file for tank shape file</TITLE>
         <VARNAME>TankInfoFile</VARNAME>
         <VISIBILITY>True</VISIBILITY>
-        <DEF_VALUE>${SC_library_node}/DataFiles/info_tank_shape_INR_R.data</DEF_VALUE>
-        <VALUE>${SC_library_node}/DataFiles/info_tank_shape_INR_R.data</VALUE>
+        <USES_SC_GP>1</USES_SC_GP>
+        <DEF_VALUE>D:\LMS_IL\SysSynDailyBuilds\SysArch_2020.1_20200227\System Architect\demo\tutorial\Aircraft Fuel System\FuelSystem_AmesimLibrary\DataFiles\info_tank_shape_INR_R.data</DEF_VALUE>
+        <VALUE>D:\LMS_IL\SysSynDailyBuilds\SysArch_2020.1_20200227\System Architect\demo\tutorial\Aircraft Fuel System\FuelSystem_AmesimLibrary\DataFiles\info_tank_shape_INR_R.data</VALUE>
         <TEXT_TYPE>1</TEXT_TYPE>
        </TPARAM>
        <TPARAM>
@@ -9164,8 +9787,9 @@
         <TITLE>data file for tank shape</TITLE>
         <VARNAME>TankFile</VARNAME>
         <VISIBILITY>True</VISIBILITY>
-        <DEF_VALUE>${SC_library_node}/Datafiles/tank_shape_INR_R.data</DEF_VALUE>
-        <VALUE>${SC_library_node}/Datafiles/tank_shape_INR_R.data</VALUE>
+        <USES_SC_GP>1</USES_SC_GP>
+        <DEF_VALUE>C:/Datafiles/tank_shape_INR_R.data</DEF_VALUE>
+        <VALUE>C:/Datafiles/tank_shape_INR_R.data</VALUE>
         <TEXT_TYPE>1</TEXT_TYPE>
        </TPARAM>
        <TPARAM>
@@ -9582,7 +10206,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
         <MAX_VALUE>0.00000000000000e+00</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <R_VALUES_LIST>
          0.00000000000000e+00
          0.00000000000000e+00
@@ -10856,8 +11480,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -11940,8 +12565,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -12863,8 +13489,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -13734,8 +14361,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -13744,8 +14372,9 @@
         <TITLE>gas type index</TITLE>
         <VARNAME>gi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFG</DEF_VALUE>
-        <VALUE>IndexFG__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFG</VALUE>
         <MIN_VALUE>1</MIN_VALUE>
         <MAX_VALUE>99</MAX_VALUE>
        </IPARAM>
@@ -14441,7 +15070,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -14670,8 +15299,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -15317,8 +15947,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -16072,8 +16703,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -16935,8 +17567,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -17414,8 +18047,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -18397,8 +19031,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -18407,8 +19042,9 @@
         <TITLE>gas type index</TITLE>
         <VARNAME>gi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFG</DEF_VALUE>
-        <VALUE>IndexFG__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFG</VALUE>
         <MIN_VALUE>1</MIN_VALUE>
         <MAX_VALUE>99</MAX_VALUE>
        </IPARAM>
@@ -19222,8 +19858,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -19232,8 +19869,9 @@
         <TITLE>gas type index</TITLE>
         <VARNAME>gi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFG</DEF_VALUE>
-        <VALUE>IndexFG__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFG</VALUE>
         <MIN_VALUE>1</MIN_VALUE>
         <MAX_VALUE>99</MAX_VALUE>
        </IPARAM>
@@ -20170,8 +20808,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -20180,8 +20819,9 @@
         <TITLE>gas type index</TITLE>
         <VARNAME>gi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFG</DEF_VALUE>
-        <VALUE>IndexFG__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFG</VALUE>
         <MIN_VALUE>1</MIN_VALUE>
         <MAX_VALUE>99</MAX_VALUE>
        </IPARAM>
@@ -20319,8 +20959,9 @@
         <TITLE>information data file for tank shape file</TITLE>
         <VARNAME>TankInfoFile</VARNAME>
         <VISIBILITY>True</VISIBILITY>
-        <DEF_VALUE>${SC_library_node}/DataFiles/info_tank_shape_INR_L.data</DEF_VALUE>
-        <VALUE>${SC_library_node}/DataFiles/info_tank_shape_INR_L.data</VALUE>
+        <USES_SC_GP>1</USES_SC_GP>
+        <DEF_VALUE>D:\LMS_IL\SysSynDailyBuilds\SysArch_2020.1_20200227\System Architect\demo\tutorial\Aircraft Fuel System\FuelSystem_AmesimLibrary\DataFiles\info_tank_shape_INR_L.data</DEF_VALUE>
+        <VALUE>D:\LMS_IL\SysSynDailyBuilds\SysArch_2020.1_20200227\System Architect\demo\tutorial\Aircraft Fuel System\FuelSystem_AmesimLibrary\DataFiles\info_tank_shape_INR_L.data</VALUE>
         <TEXT_TYPE>1</TEXT_TYPE>
        </TPARAM>
        <TPARAM>
@@ -20328,8 +20969,9 @@
         <TITLE>data file for tank shape</TITLE>
         <VARNAME>TankFile</VARNAME>
         <VISIBILITY>True</VISIBILITY>
-        <DEF_VALUE>${SC_library_node}/DataFiles/tank_shape_INR_L.data</DEF_VALUE>
-        <VALUE>${SC_library_node}/DataFiles/tank_shape_INR_L.data</VALUE>
+        <USES_SC_GP>1</USES_SC_GP>
+        <DEF_VALUE>D:\LMS_IL\SysSynDailyBuilds\SysArch_2020.1_20200227\System Architect\demo\tutorial\Aircraft Fuel System\FuelSystem_AmesimLibrary\DataFiles\tank_shape_INR_L.data</DEF_VALUE>
+        <VALUE>D:\LMS_IL\SysSynDailyBuilds\SysArch_2020.1_20200227\System Architect\demo\tutorial\Aircraft Fuel System\FuelSystem_AmesimLibrary\DataFiles\tank_shape_INR_L.data</VALUE>
         <TEXT_TYPE>1</TEXT_TYPE>
        </TPARAM>
        <TPARAM>
@@ -20746,7 +21388,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
         <MAX_VALUE>0.00000000000000e+00</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <R_VALUES_LIST>
          0.00000000000000e+00
          0.00000000000000e+00
@@ -21806,8 +22448,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -22561,8 +23204,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -23314,7 +23958,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -23438,8 +24082,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -25692,8 +26337,9 @@
         <TITLE>gas type index</TITLE>
         <VARNAME>gi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFG</DEF_VALUE>
-        <VALUE>IndexFG__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFG</VALUE>
         <MIN_VALUE>1</MIN_VALUE>
         <MAX_VALUE>99</MAX_VALUE>
        </IPARAM>
@@ -25702,8 +26348,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -26363,8 +27010,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -27677,8 +28325,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -29107,8 +29756,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -29690,8 +30340,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -30273,8 +30924,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -32301,8 +32953,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -33215,8 +33868,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -34145,8 +34799,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -36876,8 +37531,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -37460,8 +38116,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -38021,8 +38678,9 @@
         <TITLE>gas type index</TITLE>
         <VARNAME>gi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFG</DEF_VALUE>
-        <VALUE>IndexFG__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFG</VALUE>
         <MIN_VALUE>1</MIN_VALUE>
         <MAX_VALUE>99</MAX_VALUE>
        </IPARAM>
@@ -38031,8 +38689,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -39015,8 +39674,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -39025,8 +39685,9 @@
         <TITLE>gas type index</TITLE>
         <VARNAME>gi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFG</DEF_VALUE>
-        <VALUE>IndexFG__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFG</VALUE>
         <MIN_VALUE>1</MIN_VALUE>
         <MAX_VALUE>99</MAX_VALUE>
        </IPARAM>
@@ -42133,8 +42794,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -43063,8 +43725,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -45794,8 +46457,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -46509,8 +47173,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -46519,8 +47184,9 @@
         <TITLE>gas type index</TITLE>
         <VARNAME>gi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFG</DEF_VALUE>
-        <VALUE>IndexFG__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFG</VALUE>
         <MIN_VALUE>1</MIN_VALUE>
         <MAX_VALUE>99</MAX_VALUE>
        </IPARAM>
@@ -46658,8 +47324,9 @@
         <TITLE>information data file for tank shape file</TITLE>
         <VARNAME>TankInfoFile</VARNAME>
         <VISIBILITY>True</VISIBILITY>
-        <DEF_VALUE>${SC_library_node}/DataFiles/info_tank_shape_OTR_R.data</DEF_VALUE>
-        <VALUE>${SC_library_node}/DataFiles/info_tank_shape_OTR_R.data</VALUE>
+        <USES_SC_GP>1</USES_SC_GP>
+        <DEF_VALUE>D:\LMS_IL\SysSynDailyBuilds\SysArch_2020.1_20200227\System Architect\demo\tutorial\Aircraft Fuel System\FuelSystem_AmesimLibrary\DataFiles\info_tank_shape_OTR_R.data</DEF_VALUE>
+        <VALUE>D:\LMS_IL\SysSynDailyBuilds\SysArch_2020.1_20200227\System Architect\demo\tutorial\Aircraft Fuel System\FuelSystem_AmesimLibrary\DataFiles\info_tank_shape_OTR_R.data</VALUE>
         <TEXT_TYPE>1</TEXT_TYPE>
        </TPARAM>
        <TPARAM>
@@ -46667,8 +47334,9 @@
         <TITLE>data file for tank shape</TITLE>
         <VARNAME>TankFile</VARNAME>
         <VISIBILITY>True</VISIBILITY>
-        <DEF_VALUE>${SC_library_node}/Datafiles/tank_shape_OTR_R.data</DEF_VALUE>
-        <VALUE>${SC_library_node}/Datafiles/tank_shape_OTR_R.data</VALUE>
+        <USES_SC_GP>1</USES_SC_GP>
+        <DEF_VALUE>C:/Datafiles/tank_shape_OTR_R.data</DEF_VALUE>
+        <VALUE>C:/Datafiles/tank_shape_OTR_R.data</VALUE>
         <TEXT_TYPE>1</TEXT_TYPE>
        </TPARAM>
        <TPARAM>
@@ -47085,7 +47753,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
         <MAX_VALUE>0.00000000000000e+00</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <R_VALUES_LIST>
          0.00000000000000e+00
          0.00000000000000e+00
@@ -47938,8 +48606,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -48626,8 +49295,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -50603,8 +51273,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -51764,8 +52435,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -52348,8 +53020,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -53761,8 +54434,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -54513,8 +55187,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -55987,8 +56662,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -56458,7 +57134,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -57185,8 +57861,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -57753,7 +58430,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -58265,8 +58942,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -58835,7 +59513,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>1.00000000000000e+00</MIN_VALUE>
         <MAX_VALUE>2.00000000000000e+00</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
        <IVAR>
@@ -58849,7 +59527,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
        <IVAR>
@@ -58863,7 +59541,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
        <IVAR>
@@ -58877,7 +59555,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -59529,8 +60207,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -60112,8 +60791,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -60695,8 +61375,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -61278,8 +61959,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -61975,7 +62657,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -62259,8 +62941,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -64231,8 +64914,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -64241,8 +64925,9 @@
         <TITLE>gas type index</TITLE>
         <VARNAME>gi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFG</DEF_VALUE>
-        <VALUE>IndexFG__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFG</VALUE>
         <MIN_VALUE>1</MIN_VALUE>
         <MAX_VALUE>99</MAX_VALUE>
        </IPARAM>
@@ -64380,8 +65065,9 @@
         <TITLE>information data file for tank shape file</TITLE>
         <VARNAME>TankInfoFile</VARNAME>
         <VISIBILITY>True</VISIBILITY>
-        <DEF_VALUE>${SC_library_node}/DataFiles/info_tank_shape_CTR.data</DEF_VALUE>
-        <VALUE>${SC_library_node}/DataFiles/info_tank_shape_CTR.data</VALUE>
+        <USES_SC_GP>1</USES_SC_GP>
+        <DEF_VALUE>D:\LMS_IL\SysSynDailyBuilds\SysArch_2020.1_20200227\System Architect\demo\tutorial\Aircraft Fuel System\FuelSystem_AmesimLibrary\DataFiles\info_tank_shape_CTR.data</DEF_VALUE>
+        <VALUE>D:\LMS_IL\SysSynDailyBuilds\SysArch_2020.1_20200227\System Architect\demo\tutorial\Aircraft Fuel System\FuelSystem_AmesimLibrary\DataFiles\info_tank_shape_CTR.data</VALUE>
         <TEXT_TYPE>1</TEXT_TYPE>
        </TPARAM>
        <TPARAM>
@@ -64389,8 +65075,9 @@
         <TITLE>data file for tank shape</TITLE>
         <VARNAME>TankFile</VARNAME>
         <VISIBILITY>True</VISIBILITY>
-        <DEF_VALUE>${SC_library_node}/Datafiles/tank_shape_CTR.data</DEF_VALUE>
-        <VALUE>${SC_library_node}/Datafiles/tank_shape_CTR.data</VALUE>
+        <USES_SC_GP>1</USES_SC_GP>
+        <DEF_VALUE>C:/Datafiles/tank_shape_CTR.data</DEF_VALUE>
+        <VALUE>C:/Datafiles/tank_shape_CTR.data</VALUE>
         <TEXT_TYPE>1</TEXT_TYPE>
        </TPARAM>
        <TPARAM>
@@ -64807,7 +65494,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
         <MAX_VALUE>0.00000000000000e+00</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <R_VALUES_LIST>
          0.00000000000000e+00
          0.00000000000000e+00
@@ -66121,8 +66808,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -66726,8 +67414,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -67328,8 +68017,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -68357,8 +69047,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -69479,8 +70170,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -71223,7 +71915,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -71339,7 +72031,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -71568,8 +72260,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -73085,7 +73778,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>1.00000000000000e+00</MIN_VALUE>
         <MAX_VALUE>2.00000000000000e+00</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
        <IVAR>
@@ -73099,7 +73792,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
        <IVAR>
@@ -73113,7 +73806,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
        <IVAR>
@@ -73127,7 +73820,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
         <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <VALUE>0.00000000000000e+00</VALUE>
        </IVAR>
       </IVARS_LIST>
@@ -73356,8 +74049,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -74547,8 +75241,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -75147,8 +75842,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -76797,8 +77493,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -77460,8 +78157,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -80077,8 +80775,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -80611,8 +81310,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -81386,8 +82086,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -84192,8 +84893,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -84202,8 +84904,9 @@
         <TITLE>gas type index</TITLE>
         <VARNAME>gi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFG</DEF_VALUE>
-        <VALUE>IndexFG__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFG</VALUE>
         <MIN_VALUE>1</MIN_VALUE>
         <MAX_VALUE>99</MAX_VALUE>
        </IPARAM>
@@ -84341,8 +85044,9 @@
         <TITLE>information data file for tank shape file</TITLE>
         <VARNAME>TankInfoFile</VARNAME>
         <VISIBILITY>True</VISIBILITY>
-        <DEF_VALUE>${SC_library_node}/DataFiles/info_tank_shape_OTR_L.data</DEF_VALUE>
-        <VALUE>${SC_library_node}/DataFiles/info_tank_shape_OTR_L.data</VALUE>
+        <USES_SC_GP>1</USES_SC_GP>
+        <DEF_VALUE>D:\LMS_IL\SysSynDailyBuilds\SysArch_2020.1_20200227\System Architect\demo\tutorial\Aircraft Fuel System\FuelSystem_AmesimLibrary\DataFiles\info_tank_shape_OTR_L.data</DEF_VALUE>
+        <VALUE>D:\LMS_IL\SysSynDailyBuilds\SysArch_2020.1_20200227\System Architect\demo\tutorial\Aircraft Fuel System\FuelSystem_AmesimLibrary\DataFiles\info_tank_shape_OTR_L.data</VALUE>
         <TEXT_TYPE>1</TEXT_TYPE>
        </TPARAM>
        <TPARAM>
@@ -84350,8 +85054,9 @@
         <TITLE>data file for tank shape</TITLE>
         <VARNAME>TankFile</VARNAME>
         <VISIBILITY>True</VISIBILITY>
-        <DEF_VALUE>${SC_library_node}/Datafiles/tank_shape_OTR_L.data</DEF_VALUE>
-        <VALUE>${SC_library_node}/Datafiles/tank_shape_OTR_L.data</VALUE>
+        <USES_SC_GP>1</USES_SC_GP>
+        <DEF_VALUE>C:/Datafiles/tank_shape_OTR_L.data</DEF_VALUE>
+        <VALUE>C:/Datafiles/tank_shape_OTR_L.data</VALUE>
         <TEXT_TYPE>1</TEXT_TYPE>
        </TPARAM>
        <TPARAM>
@@ -84768,7 +85473,7 @@
         <UNITS>null</UNITS>
         <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
         <MAX_VALUE>0.00000000000000e+00</MAX_VALUE>
-        <DEF_VALUE>0</DEF_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
         <R_VALUES_LIST>
          0.00000000000000e+00
          0.00000000000000e+00
@@ -85379,7 +86084,7 @@
        </ICON_MAP_DATA>
       </ICON_MAP>
       <CIR_PORT_GRAPHICS>
-       IDxQT1JUUz4KICA8UE9SVCBmYWNlPSIwIiB4PSIxMjAiIHR5cGU9InNpZ25hbCIgeT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCBmYWNlPSIwIiB4PSIxMDgiIHR5cGU9InNpZ25hbCIgeT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCBmYWNlPSIwIiB4PSI5NiIgdHlwZT0ic2lnbmFsIiB5PSIxIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIGZhY2U9IjAiIHg9Ijg0IiB0eXBlPSJzaWduYWwiIHk9IjEiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgZmFjZT0iMCIgeD0iNzIiIHR5cGU9InNpZ25hbCIgeT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCBmYWNlPSIwIiB4PSI2MCIgdHlwZT0ic2lnbmFsIiB5PSIxIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIGZhY2U9IjAiIHg9IjQ4IiB0eXBlPSJzaWduYWwiIHk9IjEiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgZmFjZT0iMCIgeD0iMzYiIHR5cGU9InNpZ25hbCIgeT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCBmYWNlPSIwIiB4PSIyNCIgdHlwZT0ic2lnbmFsIiB5PSIxIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIGZhY2U9IjAiIHg9IjEyIiB0eXBlPSJzaWduYWwiIHk9IjEiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgZmFjZT0iMSIgeD0iNjciIHR5cGU9ImhmbG93IiB5PSI0OSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL2hmbG93MXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogPC9QT1JUUz4K
+       IDxQT1JUUz4KICA8UE9SVCB5PSIxIiB0eXBlPSJzaWduYWwiIHg9IjEyMCIgZmFjZT0iMCI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB5PSIxIiB0eXBlPSJzaWduYWwiIHg9IjEwOCIgZmFjZT0iMCI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB5PSIxIiB0eXBlPSJzaWduYWwiIHg9Ijk2IiBmYWNlPSIwIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIHk9IjEiIHR5cGU9InNpZ25hbCIgeD0iODQiIGZhY2U9IjAiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgeT0iMSIgdHlwZT0ic2lnbmFsIiB4PSI3MiIgZmFjZT0iMCI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB5PSIxIiB0eXBlPSJzaWduYWwiIHg9IjYwIiBmYWNlPSIwIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIHk9IjEiIHR5cGU9InNpZ25hbCIgeD0iNDgiIGZhY2U9IjAiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgeT0iMSIgdHlwZT0ic2lnbmFsIiB4PSIzNiIgZmFjZT0iMCI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB5PSIxIiB0eXBlPSJzaWduYWwiIHg9IjI0IiBmYWNlPSIwIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIHk9IjEiIHR5cGU9InNpZ25hbCIgeD0iMTIiIGZhY2U9IjAiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgeT0iNDkiIHR5cGU9ImhmbG93IiB4PSI2NyIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL2hmbG93MXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogPC9QT1JUUz4K
       </CIR_PORT_GRAPHICS>
       <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
      </CIR_COMP_ICON>
@@ -85583,8 +86288,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -85947,7 +86653,7 @@
        </ICON_MAP_DATA>
       </ICON_MAP>
       <CIR_PORT_GRAPHICS>
-       IDxQT1JUUz4KICA8UE9SVCBmYWNlPSIwIiB4PSIxMjAiIHR5cGU9InNpZ25hbCIgeT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCBmYWNlPSIwIiB4PSIxMDgiIHR5cGU9InNpZ25hbCIgeT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCBmYWNlPSIwIiB4PSI5NiIgdHlwZT0ic2lnbmFsIiB5PSIxIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIGZhY2U9IjAiIHg9Ijg0IiB0eXBlPSJzaWduYWwiIHk9IjEiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgZmFjZT0iMCIgeD0iNzIiIHR5cGU9InNpZ25hbCIgeT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCBmYWNlPSIwIiB4PSI2MCIgdHlwZT0ic2lnbmFsIiB5PSIxIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIGZhY2U9IjAiIHg9IjQ4IiB0eXBlPSJzaWduYWwiIHk9IjEiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgZmFjZT0iMCIgeD0iMzYiIHR5cGU9InNpZ25hbCIgeT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCBmYWNlPSIwIiB4PSIyNCIgdHlwZT0ic2lnbmFsIiB5PSIxIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIGZhY2U9IjAiIHg9IjEyIiB0eXBlPSJzaWduYWwiIHk9IjEiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgZmFjZT0iMSIgeD0iNjciIHR5cGU9ImhmbG93IiB5PSI0OSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL2hmbG93MXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogPC9QT1JUUz4K
+       IDxQT1JUUz4KICA8UE9SVCB5PSIxIiB0eXBlPSJzaWduYWwiIHg9IjEyMCIgZmFjZT0iMCI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB5PSIxIiB0eXBlPSJzaWduYWwiIHg9IjEwOCIgZmFjZT0iMCI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB5PSIxIiB0eXBlPSJzaWduYWwiIHg9Ijk2IiBmYWNlPSIwIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIHk9IjEiIHR5cGU9InNpZ25hbCIgeD0iODQiIGZhY2U9IjAiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgeT0iMSIgdHlwZT0ic2lnbmFsIiB4PSI3MiIgZmFjZT0iMCI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB5PSIxIiB0eXBlPSJzaWduYWwiIHg9IjYwIiBmYWNlPSIwIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIHk9IjEiIHR5cGU9InNpZ25hbCIgeD0iNDgiIGZhY2U9IjAiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgeT0iMSIgdHlwZT0ic2lnbmFsIiB4PSIzNiIgZmFjZT0iMCI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCB5PSIxIiB0eXBlPSJzaWduYWwiIHg9IjI0IiBmYWNlPSIwIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIHk9IjEiIHR5cGU9InNpZ25hbCIgeD0iMTIiIGZhY2U9IjAiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgeT0iNDkiIHR5cGU9ImhmbG93IiB4PSI2NyIgZmFjZT0iMSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL2hmbG93MXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogPC9QT1JUUz4K
       </CIR_PORT_GRAPHICS>
       <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
      </CIR_COMP_ICON>
@@ -86151,8 +86857,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -90821,8 +91528,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -93687,8 +94395,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -94839,8 +95548,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -98730,8 +99440,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -101283,8 +101994,9 @@
         <TITLE>index of thermal hydraulic fluid</TITLE>
         <VARNAME>fi</VARNAME>
         <VISIBILITY>True</VISIBILITY>
+        <USES_SC_GP>1</USES_SC_GP>
         <DEF_VALUE>IndexFL</DEF_VALUE>
-        <VALUE>IndexFL__FUEL_SYSTEM_AIRCRAFT_1</VALUE>
+        <VALUE>IndexFL</VALUE>
         <MIN_VALUE>0</MIN_VALUE>
         <MAX_VALUE>100</MAX_VALUE>
        </IPARAM>
@@ -110565,8 +111277,8 @@
     <LOOP>0</LOOP>
    </ANIMATION_PROPERTIES>
     <GLOBAL_PARAMS_LIST>
-     <GLOBALPARAM GLOB_EXPOSED="0" GLOB_PARAM_NAME="IndexFL" TYPE="Integer" VALUE="0" TITLE="IndexFluidLiquid"/>
-     <GLOBALPARAM GLOB_EXPOSED="0" GLOB_PARAM_NAME="IndexFG" TYPE="Integer" VALUE="1" TITLE="IndexFluidGas"/>
+     <GLOBALPARAM GLOB_PARAM_NAME="IndexFL" TYPE="Integer" VALUE="0" TITLE="IndexFluidLiquid" GLOB_EXPOSED="1"/>
+     <GLOBALPARAM GLOB_PARAM_NAME="IndexFG" TYPE="Integer" VALUE="1" TITLE="IndexFluidGas" GLOB_EXPOSED="1"/>
     </GLOBAL_PARAMS_LIST>
    
   </CIRCUIT>
